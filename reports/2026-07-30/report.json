@@ -1,0 +1,353 @@
+{
+  "schemaVersion": 1,
+  "reportDate": "2026-07-30",
+  "generatedAt": "2026-07-30T04:10:23.021Z",
+  "indicators": {
+    "btc": {
+      "price": 64119.79,
+      "change": 0.615,
+      "source": "Binance Public Data",
+      "updatedAt": "2026-07-30T04:10:23.369Z"
+    },
+    "gold": {
+      "usdPerOunce": 4057.199951,
+      "source": "Gold-API",
+      "updatedAt": "2026-07-30T04:10:21.000Z"
+    },
+    "csi300": {
+      "price": 4500.1604,
+      "change": -2.1760063078140908,
+      "source": "新浪财经",
+      "marketDate": "2026-07-30",
+      "marketTime": "11:35:54"
+    },
+    "usdcny": {
+      "rate": 6.773647,
+      "source": "ExchangeRate-API",
+      "updatedAt": "2026-07-30T00:02:31.000Z"
+    },
+    "housing": {
+      "guangzhou": {
+        "price": 30798,
+        "period": "7月",
+        "source": "m.anjuke.com",
+        "link": "https://m.anjuke.com/gz/trendency/"
+      },
+      "tianhe": {
+        "price": 49870,
+        "period": "页面当前值",
+        "source": "www.anjuke.com",
+        "link": "https://www.anjuke.com/gz/ershoufang/tianhe/"
+      },
+      "zhujiang": {
+        "price": 83956,
+        "period": "7月",
+        "source": "m.anjuke.com",
+        "link": "https://m.anjuke.com/gz/trendency/tianhe-q-zhujiangxincheng/"
+      }
+    }
+  },
+  "categories": [
+    {
+      "id": "ai",
+      "name": "AI 圈",
+      "icon": "🤖",
+      "trendSummary": "AI Agent产品化加速，办公场景成巨头竞争焦点；大模型竞争转向性价比；行业领袖推动自律监管；模型安全漏洞引发关注。",
+      "items": [
+        {
+          "title": "阿里AI Agent产品“千问办公”上线桌面客户端，后续将推出网页版和钉钉内置版",
+          "link": "https://m.mp.oeeee.com/a/BAAFRD0000202607271633404.html",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzk8JwtUbq8YNOvAEQhrG-uKqpE2Wh1SV24HQcEuKZUu26cshCliDx47k&usqp=CAI&s",
+          "snippet": "7月27日，南都N视频记者从阿里方面了解获悉，阿里最新AI Agent产品“千问办公”已开始小范围测试，目前上线的是本地桌面客户端，后续将陆续上线网页端和钉钉内置版。",
+          "date": "2 天前",
+          "source": "奥一网",
+          "query": "AI Agent 产品 发布 功能 升级 最新",
+          "candidateId": "ai-10",
+          "eventId": "af3561e0b2f447b62a6e",
+          "parentEventId": "d26935da749e23bd475a",
+          "eventSummary": "阿里将推出“千问办公”Agent产品，整合QoderWork、悟空、MuleRun三款智能体",
+          "isUpdate": true,
+          "summary": "7月27日，阿里新款AI Agent产品“千问办公”开始小范围测试，已上线本地桌面客户端，后续将陆续上线网页端和钉钉内置版。该产品整合了QoderWork、悟空、MuleRun三款智能体。",
+          "whyItMatters": "阿里正式入局AI办公Agent赛道，与腾讯Workbuddy等竞争，企业用户获得新选择。",
+          "trend": "AI Agent从概念走向产品化，办公场景成为巨头必争之地。",
+          "importance": 85
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "科技圈",
+      "icon": "💻",
+      "trendSummary": "中美科技竞争延伸至机器人领域；存储芯片受AI驱动获资本市场追捧；AI投资热潮加剧半导体设备供应链紧张。",
+      "items": [
+        {
+          "title": "美国FCC将先进机器人设备纳入限制清单，针对中国企业",
+          "link": "https://www.pconline.com.cn/zhizao/2179/21793901.html",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-dx-hYcNi7mTiRMwiF4X25chuBga8vseMKpYz12iW_w6gmDVLja1_wbI&usqp=CAI&s",
+          "snippet": "2026年7月29日，美国联邦通信委员会（FCC）将“先进机器人设备”纳入限制清单，针对包括中国企业生产的人形和四足机器人，加强市场准入审查。此举体现出中美在机器人这一具身...",
+          "date": "20小时前",
+          "source": "太平洋科技",
+          "query": "科技 新品 发布 芯片 机器人 智能硬件 最新",
+          "candidateId": "tech-5",
+          "eventId": "db7918bcb2cd1ad8d337",
+          "parentEventId": null,
+          "eventSummary": "美国FCC将先进机器人设备纳入限制清单，针对中国企业。",
+          "isUpdate": false,
+          "summary": "2026年7月28日或29日，美国联邦通信委员会（FCC）更新受管制清单，将外国生产的先进机器人设备（如人形机器人和四足机器人）纳入，限制其进入美国市场。外媒普遍解读为针对中国机器人企业。",
+          "whyItMatters": "此举可能限制中国机器人企业进入美国市场，影响相关产业链出口，并加速国内自主技术研发。",
+          "trend": "机器人成为中美科技竞争新焦点，政策壁垒加剧。",
+          "importance": 90
+        },
+        {
+          "title": "长鑫科技科创板上市首日暴涨465%，市值超3万亿元",
+          "link": "https://k.sina.com.cn/article_7879849004_1d5acf42c06801al36.html",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp85L7IaUMAAoAHlr7BYcBrIZbBMZeBwtf3qzDuc4QZudCCsiZ8cJ_amE&usqp=CAI&s",
+          "snippet": "长鑫科技上市首日暴涨465%，中一签赚2.3万！,科创板,A股,股价,科创,龙头,产业,中签率,市值.",
+          "date": "2 天前",
+          "source": "新浪网",
+          "query": "半导体 消费电子 云计算 产业 最新 动态",
+          "candidateId": "tech-13",
+          "eventId": "beb02dca0895e1d9aae1",
+          "parentEventId": "7769a371d748f0476531",
+          "eventSummary": "长鑫科技上市，AI时代存储需求旺盛。",
+          "isUpdate": true,
+          "summary": "2026年7月27日，国产DRAM龙头长鑫科技（688825）登陆科创板，发行价8.66元/股，上市首日收盘涨465.82%，市值达3.28万亿元，中一签可赚约2.3万元。",
+          "whyItMatters": "反映市场对存储芯片行业的高度看好，AI时代存储需求旺盛，可能带动相关产业链投资。",
+          "trend": "存储芯片市场受AI驱动持续火热，资本市场追捧。",
+          "importance": 85
+        },
+        {
+          "title": "荣耀发布Robot Phone，融合AI智能体与机械臂影像技术",
+          "link": "https://www.leikeji.com/article/78313",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbanO8b6-TIKIEyxxKxNdGocFu7AVYX3JLsiNouMLbhN-9DELChpdAJJU&usqp=CAI&s",
+          "snippet": "2026 年7 月28 日，荣耀在浙江横店召开了首届荣耀影像技术发布会，雷科技(ID：leitech）受邀来到现场报道。 IMG_20260728_090944.jpg. （图片来源：雷科技现场摄制）.",
+          "date": "1 天前",
+          "source": "雷科技",
+          "query": "科技 新品 发布 芯片 机器人 智能硬件 最新",
+          "candidateId": "tech-6",
+          "eventId": "f0849b3822497d1f7302",
+          "parentEventId": null,
+          "eventSummary": "荣耀发布Robot Phone，主打AI影像功能。",
+          "isUpdate": false,
+          "summary": "2026年7月28日，荣耀在横店举办影像技术发布会，推出荣耀Robot Phone，该手机融合AI智能体、机械臂级钛合金灵巧云台与ARRI影像能力，探索手机影像新方向。",
+          "whyItMatters": "为手机影像带来AI驱动的创新，可能提升用户拍照体验，并推动行业向智能化影像发展。",
+          "trend": "AI与手机影像深度融合，硬件创新转向软件与算法。",
+          "importance": 80
+        }
+      ]
+    },
+    {
+      "id": "crossborder",
+      "name": "跨境电商",
+      "icon": "🌐",
+      "trendSummary": "跨境电商头部企业资本化加速，监管与支付基础设施持续完善。",
+      "items": [
+        {
+          "title": "SHEIN通过港交所聆讯，蚂蚁国际融资12亿美元，海关总署发布监管优化方案",
+          "link": "https://www.100ec.cn/detail--6661944.html",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbO4iZv-oc5HF8GXYLYOgXSi87gfrdFSd5C311SHfDwVHzzF0WxejS3lo&usqp=CAI&s",
+          "snippet": "(网经社讯)2026年7月，跨境电商领域又有哪些事？ 以下是我国“一带一路TOP10影响力社会智库”、“丝路电商产教融合国际共同体”创始单位——数字经济新媒体# 网经社旗下跨境电...",
+          "date": "2 天前",
+          "source": "网经社",
+          "query": "Amazon TikTok Shop Temu SHEIN 卖家 新规 最新",
+          "candidateId": "crossborder-3",
+          "eventId": "202cf3f1f0cbecc1257d",
+          "parentEventId": null,
+          "eventSummary": "7月跨境电商月报：SHEIN通过港交所聆讯，蚂蚁国际融资12亿美元，海关总署发布监管优化方案",
+          "isUpdate": false,
+          "summary": "网经社月报显示，2026年7月SHEIN通过港交所聆讯，蚂蚁国际融资12亿美元，海关总署发布监管优化方案。",
+          "whyItMatters": "SHEIN上市进程推进，蚂蚁国际融资显示支付领域资本活跃，海关监管优化影响跨境物流合规。",
+          "trend": "跨境电商头部企业资本化加速，监管与支付基础设施持续完善。",
+          "importance": 85
+        }
+      ]
+    },
+    {
+      "id": "realestate",
+      "name": "房地产",
+      "icon": "🏠",
+      "trendSummary": "广州新房与租赁市场分化加剧，核心区高价盘与低价盘并存；政策信号提振资本市场情绪。",
+      "items": [
+        {
+          "title": "2026年7月广州天河区新房价格分化：有盘单价近16万，有盘不到5万且去化超八成",
+          "link": "https://news.qq.com/rain/a/20260728A03WVG00",
+          "imageUrl": null,
+          "snippet": "2026年7月，广州天河卖出了一套总价超过4500万的房子，单价逼近16万/㎡。 同一周，天河智慧城一个新盘开盘，最低单价不到5万，首日去化超过八成。",
+          "date": "2 days ago",
+          "source": "",
+          "query": "广州 楼市 天河 珠江新城 房价 成交 政策 最新",
+          "candidateId": "realestate-10",
+          "eventId": "dc72e03194c24d8e1f8d",
+          "parentEventId": null,
+          "eventSummary": "广州天河区新房价格分化，高端盘单价近16万，刚需盘不到5万且去化超八成。",
+          "isUpdate": false,
+          "summary": "2026年7月，广州天河区卖出单价近16万/㎡的房源，同时天河智慧城新盘单价不到5万，首日去化超八成。",
+          "whyItMatters": "天河区内部价格分化剧烈，购房者需根据预算和板块精准选择；高去化率显示刚需市场仍有支撑。",
+          "trend": "核心城市核心区域与新兴板块价差拉大，市场分化加剧。",
+          "importance": 80
+        },
+        {
+          "title": "2026年7月27日A股房地产板块走高，京投发展、首开股份涨停",
+          "link": "https://news.smm.cn/news/104024978",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgKpea6qmVIu0t2FodTXLh-zb_w16s567_yW0P7YB26ucNrsGjhRb2u2c&usqp=CAI&s",
+          "snippet": "SMM7月27日讯：. 多重政策信号持续释放、楼市基本面边际改善，叠加板块前期超跌吸引部分短线资金布局估值修复，共同推动A股房地产板块反弹。截至7月27日收盘，房地产开发...",
+          "date": "3 天前",
+          "source": "上海有色金属",
+          "query": "中国 房地产 政策 成交 库存 房企 最新",
+          "candidateId": "realestate-3",
+          "eventId": "ec529692d66d0e62deb2",
+          "parentEventId": null,
+          "eventSummary": "7月27日房地产板块反弹，京投发展、首开股份涨停。",
+          "isUpdate": false,
+          "summary": "2026年7月27日，多重政策信号叠加楼市基本面改善，A股房地产板块反弹，京投发展、首开股份涨停。",
+          "whyItMatters": "资本市场对政策反应积极，可能预示短期板块估值修复，但需警惕市场情绪波动。",
+          "trend": "政策利好短期提振资本市场情绪，但基本面改善仍需时间验证。",
+          "importance": 70
+        },
+        {
+          "title": "2026年上半年广州住宅租赁市场月租3500元以下房源成交占比近六成",
+          "link": "https://m.mp.oeeee.com/a/BAAFRD0000202607291634815.html",
+          "imageUrl": null,
+          "snippet": "天河的租赁市场是成交,成交同比涨幅均超过20%。琶洲、珠江新城等核心商务区的租赁需求也逐步企稳,同比涨幅明显。 在全市成交数据中下滑最显著。 成交月租3500元以下上半年 ...",
+          "date": "19 hours ago",
+          "source": "",
+          "query": "广州 楼市 天河 珠江新城 房价 成交 政策 最新",
+          "candidateId": "realestate-12",
+          "eventId": "7ff9f9f372a0b652e5c5",
+          "parentEventId": null,
+          "eventSummary": "广州租赁市场月租3500元以下占比近六成，天河区成交同比涨超20%。",
+          "isUpdate": false,
+          "summary": "2026年上半年，广州住宅租赁市场月租3500元以下房源成交占比近六成，天河区租赁成交同比涨幅超20%，琶洲、珠江新城需求企稳。",
+          "whyItMatters": "低租金房源主导市场，反映租房群体支付能力有限；核心商务区租赁需求企稳，利好房东。",
+          "trend": "租赁市场结构分化，低租金房源需求旺盛，核心区租赁市场逐步恢复。",
+          "importance": 65
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "name": "金融圈",
+      "icon": "📈",
+      "trendSummary": "美联储维持利率不变但偏鹰，金价冲高回落；CME黄金期货全天候交易上线首周末成交活跃；美元兑日元在央行决议前窄幅震荡；中国平准制度雏形引发关注。",
+      "items": [
+        {
+          "title": "美联储维持利率不变，金价冲高回落至4100美元附近",
+          "link": "https://finance.sina.com.cn/stock/usstock/c/2026-07-30/doc-inikphnv1364509.shtml?finpagefr=p_108",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxnKU44t7FDW6KzF14FYp3G9vXjT-XpFUZEHg_JX3kvl13Y9UwtejvbpA&usqp=CAI&s",
+          "snippet": "全球汇率新浪最全炒汇神器。美联储联邦公开市场委员会以9票赞成、3票反对，决定将联邦基金利率目标区间维持在3.5%至3.75%以支持双重使命，继续维持银行体系充足准备金...",
+          "date": "10小时前",
+          "source": "新浪财经",
+          "query": "美联储 全球金融 市场 利率 股票 黄金 最新",
+          "candidateId": "finance-13",
+          "eventId": "4e9783dc8f251436a6df",
+          "parentEventId": null,
+          "eventSummary": "美联储维持利率不变，金价站上4100美元",
+          "isUpdate": false,
+          "summary": "2026年7月30日，美联储联邦公开市场委员会以9票赞成、3票反对，决定将联邦基金利率目标区间维持在3.5%至3.75%不变。沃什发言偏鹰，金价冲高回落，维持在4100美元附近。",
+          "whyItMatters": "利率不变符合预期，但鹰派言论限制金价涨幅，投资者需关注后续政策路径。",
+          "trend": "美联储按兵不动但偏鹰，黄金短期承压。",
+          "importance": 90
+        },
+        {
+          "title": "美联储维持利率不变，金价冲高回落，美伊冲突支撑避险情绪",
+          "link": "https://finance.sina.com.cn/jjxw/2026-07-30/doc-inikpxkp1277901.shtml",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJLFhYxB9TCCN6FfGdJt7XCNQgSb7mg_ZyKXSvSZTZkC7IvEjM5p9BsME&usqp=CAI&s",
+          "snippet": "2026年7月30日，北京时间凌晨，美联储将联邦基金利率目标区间维持在3.5%至3.75%之间不变，沃什发言偏鹰，金价冲高回落，此外，美伊冲突未果，避险情绪持续，金价维持在4100美元...",
+          "date": "2小时前",
+          "source": "新浪财经",
+          "query": "美联储 全球金融 市场 利率 股票 黄金 最新",
+          "candidateId": "finance-15",
+          "eventId": "688e0ae74f7fe42dd3e8",
+          "parentEventId": "804eea1f6653c1384612",
+          "eventSummary": "美联储维持利率不变，金价站上4100美元",
+          "isUpdate": true,
+          "summary": "2026年7月30日，美联储维持联邦基金利率目标区间3.5%-3.75%不变，沃什发言偏鹰，金价冲高回落。美伊冲突未果，避险情绪持续，金价维持在4100美元附近。",
+          "whyItMatters": "金价站上4100美元反映避险需求，但鹰派言论限制涨幅，投资者需关注后续数据。",
+          "trend": "地缘政治与货币政策博弈主导黄金走势。",
+          "importance": 88
+        },
+        {
+          "title": "沃什提议美联储降低政策透明度，市场将迎实战检验",
+          "link": "https://finance.sina.com.cn/world/2026-07-29/doc-iniknvxf2450785.shtml?cre=tianyi&mod=pchp&loc=34&r=0&rfunc=52&tj=cxvertical_pc_hp&tr=12",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoRjm6UbfhK0KeeVOT9flHZO2dDGF0Bc8kElYjnhbhW-GPBc-if4Z5A9I&usqp=CAI&s",
+          "snippet": "当地时间本周三，市场将充分验证新任美联储主席凯文・沃什选择弱化议息会议结果清晰度的做法，是否是更优的货币政策落地路径。 最终效果将体现在决议落地前后、主席新闻...",
+          "date": "13小时前",
+          "source": "新浪财经",
+          "query": "中国 金融 央行 股市 债市 政策 最新 重磅",
+          "candidateId": "finance-2",
+          "eventId": "da98c4d92e5a908087f0",
+          "parentEventId": null,
+          "eventSummary": "沃什提议美联储降低政策透明度，市场将迎实战检验",
+          "isUpdate": false,
+          "summary": "新任美联储主席凯文·沃什提议弱化议息会议结果清晰度，市场将在本周决议中验证该做法是否更优。",
+          "whyItMatters": "政策透明度降低可能增加市场波动，投资者需适应更模糊的信号。",
+          "trend": "美联储沟通策略转向模糊化，考验市场解读能力。",
+          "importance": 85
+        }
+      ]
+    },
+    {
+      "id": "football",
+      "name": "足球圈 · 重磅转会",
+      "icon": "⚽",
+      "trendSummary": "英超及沙特联赛持续高投入，多家俱乐部官宣或接近完成重磅转会，年轻球员身价创新高。",
+      "items": [
+        {
+          "title": "利雅得新月官宣7000万欧元签下荷兰边锋萨默维尔",
+          "link": "https://news.qq.com/rain/a/20260725A048OH00",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtwWDigkf_hmqBtXS2zLm6UCy97VGSQCdEQ7AeiTX15INQROdDCR4QMTY&usqp=CAI&s",
+          "snippet": "体坛周报全媒体报道终究是有钱的为所欲为。沙特豪门利雅得新月官宣，签下在上赛季英超和今夏世界杯表现出色的24岁荷兰边锋萨默维尔，据信转会费高达6500万英镑（5500万...",
+          "date": "5 天前",
+          "source": "QQ News",
+          "query": "足球 重磅转会 官宣 豪门 球星 最新",
+          "candidateId": "football-7",
+          "eventId": "adf948e9871983696020",
+          "parentEventId": null,
+          "eventSummary": "利雅得新月7000万欧元签下荷兰边锋萨默维尔，合同4年。",
+          "isUpdate": false,
+          "summary": "利雅得新月官方宣布签下24岁荷兰边锋萨默维尔，转会费6500万英镑（约7000万欧元），合同4年。",
+          "whyItMatters": "沙特联赛继续以高额转会费和薪资吸引欧洲顶级球员，萨默维尔在英超和世界杯表现出色，加盟将提升沙特联赛关注度。",
+          "trend": "沙特联赛持续以高额转会费和薪资挖角欧洲球星，影响力不断扩大。",
+          "importance": 85
+        },
+        {
+          "title": "阿森纳官宣4000万欧元签下希腊边锋措利斯",
+          "link": "https://news.zhibo8.com/zuqiu/2026-07-23/6a62069de13cenative.htm",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-eSBGPqgvsmyFh2FNn3fVrhYghNA-wZuPK9xNnA0YZD2wiCTOkZGgYoo&usqp=CAI&s",
+          "snippet": "直播吧07月23日讯阿森纳今天官宣，正式签下24岁的希腊国脚边锋措利斯。这笔价值4000万欧的转会，在希腊国内掀起了巨大的反响。这桩转会在短时间内登上希腊各大体育媒体的...",
+          "date": "6 天前",
+          "source": "直播吧",
+          "query": "足球 重磅转会 官宣 豪门 球星 最新",
+          "candidateId": "football-5",
+          "eventId": "29ff066a8d7ce980dfee",
+          "parentEventId": null,
+          "eventSummary": "阿森纳4000万欧元签下希腊边锋措利斯，创希腊球员转会费纪录。",
+          "isUpdate": false,
+          "summary": "阿森纳官方宣布签下24岁希腊国脚边锋措利斯，转会费4000万欧元，创希腊球员转会费纪录。",
+          "whyItMatters": "阿森纳补强边路，措利斯成为希腊历史标王，对希腊足球有里程碑意义。",
+          "trend": "英超中游球队持续投入，非五大联赛球员身价水涨船高。",
+          "importance": 80
+        },
+        {
+          "title": "切尔西接近签下亨德森和维尔贝克，维尔贝克已获准体检",
+          "link": "https://www.bbc.com/sport/football/articles/c935lvyeykwo",
+          "imageUrl": null,
+          "snippet": "Brighton striker Danny Welbeck is given permission to have a medical at Stamford Bridge as his switch to Chelsea moves closer.",
+          "date": "22 hours ago",
+          "source": "BBC",
+          "query": "site:bbc.com/sport/football OR site:reuters.com/sports/soccer transfer official latest",
+          "candidateId": "football-29",
+          "eventId": "ac361d956ba722e24755",
+          "parentEventId": null,
+          "eventSummary": "切尔西接近签下亨德森和维尔贝克，维尔贝克已获准体检。",
+          "isUpdate": false,
+          "summary": "BBC报道，切尔西接近签下布伦特福德中场乔丹·亨德森和布莱顿前锋丹尼·维尔贝克，维尔贝克已获准在切尔西进行体检。",
+          "whyItMatters": "切尔西同时引进两名经验丰富的球员，将增强中场和锋线深度，但两人年龄偏大引发争议。",
+          "trend": "豪门在巨额投资年轻球员的同时，也通过免签或低价引进老将补充经验。",
+          "importance": 70
+        }
+      ]
+    }
+  ],
+  "weeklyDigest": null
+}
