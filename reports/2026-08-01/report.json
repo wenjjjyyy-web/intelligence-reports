@@ -1,0 +1,365 @@
+{
+  "schemaVersion": 1,
+  "reportDate": "2026-08-01",
+  "generatedAt": "2026-08-01T00:00:03.928Z",
+  "indicators": {
+    "btc": {
+      "price": 62899.99,
+      "change": -2.911,
+      "source": "Binance Public Data",
+      "updatedAt": "2026-08-01T00:00:04.322Z"
+    },
+    "gold": {
+      "usdPerOunce": 4043.699951,
+      "source": "Gold-API",
+      "updatedAt": "2026-07-31T23:59:46.000Z"
+    },
+    "csi300": {
+      "price": 4588.1968,
+      "change": 0.8456937823493839,
+      "source": "新浪财经",
+      "marketDate": "2026-07-31",
+      "marketTime": "16:19:34"
+    },
+    "usdcny": {
+      "rate": 6.765736,
+      "source": "ExchangeRate-API",
+      "updatedAt": "2026-07-31T00:02:31.000Z"
+    },
+    "housing": {
+      "guangzhou": {
+        "price": 30798,
+        "period": "7月",
+        "source": "m.anjuke.com",
+        "link": "https://m.anjuke.com/gz/trendency/"
+      },
+      "tianhe": {
+        "price": 49786,
+        "period": "7月",
+        "source": "m.anjuke.com",
+        "link": "https://m.anjuke.com/gz/trendency/201/"
+      }
+    }
+  },
+  "categories": [
+    {
+      "id": "ai",
+      "name": "AI 圈",
+      "icon": "🤖",
+      "trendSummary": "AI安全治理走向制度化，企业参与制定监管标准；大模型竞争转向效率与成本优化；AI竞争从模型性能转向平台与生态。",
+      "items": [
+        {
+          "title": "OpenAI与Anthropic合作设计联邦AI模型发布前审查门槛",
+          "link": "https://www.techtimes.com/articles/321917/20260728/openai-anthropic-are-writing-threshold-their-rivals-must-clear-launch.htm",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ46axiCfOJvZrESqqNDsKyPcsgfLPpdFrSn1ZYvZP4b6Ep9ri-2XU1IsI&usqp=CAI&s",
+          "snippet": "AI model government review: OpenAI and Anthropic are co-designing the federal threshold that will determine which frontier AI models face pre-release...",
+          "date": "2 days ago",
+          "source": "Tech Times",
+          "query": "AI model launch product update latest OpenAI Anthropic Google xAI Meta",
+          "candidateId": "ai-22",
+          "eventId": "6b41e4f06c6b8eb2fa23",
+          "parentEventId": null,
+          "eventSummary": "OpenAI与Anthropic共同设计联邦AI模型发布审查门槛。",
+          "isUpdate": false,
+          "summary": "据Tech Times报道，OpenAI和Anthropic正在合作设计联邦审查门槛，以决定哪些前沿AI模型在发布前需要接受政府审查。",
+          "whyItMatters": "该合作可能影响未来AI模型的发布流程，增加监管透明度，对行业合规提出新要求。",
+          "trend": "AI安全治理走向制度化，企业参与制定监管标准。",
+          "importance": 90
+        },
+        {
+          "title": "月之暗面发布Kimi K3，xAI推出Grok 4.5",
+          "link": "https://mp.ofweek.com/ai/a256714335637",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcDn8RcHQFXOJ9iFClMgOQJKjnlk3dmJIoob378dw&usqp=CAI&s",
+          "snippet": "2026年7月，大模型行业迎来了一轮密集发布期。 月之暗面发布Kimi K3，2.8万亿参数规模，在多项复杂任务评测中进入全球第一梯队；xAI推出Grok 4.5，强调以更低价格提供...",
+          "date": "2 天前",
+          "source": "维科号",
+          "query": "Kimi K3 DeepSeek 通义 豆包 新模型 功能 优势 性能",
+          "candidateId": "ai-10",
+          "eventId": "5b9beb274c9cc7327630",
+          "parentEventId": null,
+          "eventSummary": "月之暗面发布Kimi K3，xAI发布Grok 4.5。",
+          "isUpdate": false,
+          "summary": "据维科号报道，2026年7月，月之暗面发布Kimi K3，参数规模达2.8万亿，在多项复杂任务评测中进入全球第一梯队；xAI推出Grok 4.5，强调以更低价格提供高性能。",
+          "whyItMatters": "显示大模型竞争从参数规模转向效率与性价比，用户可能以更低成本获得顶尖能力。",
+          "trend": "大模型竞争转向效率与成本优化。",
+          "importance": 85
+        },
+        {
+          "title": "微软AI战略转向构建AI操作系统而非追求更强模型",
+          "link": "https://redmondmag.com/blogs/generationai/2026/07/building-an-ai-operating-system.aspx",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgl9VgwTEGw3clyQGoL9uRHiXxue8JuCVfLeWHRkJCnMrIi5D79MUI728&usqp=CAI&s",
+          "snippet": "Microsoft is betting that embedded agents, enterprise governance and model choice will matter more than winning the AI benchmark race.",
+          "date": "3 days ago",
+          "source": "Redmondmag.com",
+          "query": "AI model launch product update latest OpenAI Anthropic Google xAI Meta",
+          "candidateId": "ai-23",
+          "eventId": "297d4ef81edfe7748702",
+          "parentEventId": null,
+          "eventSummary": "微软AI战略转向构建AI操作系统。",
+          "isUpdate": false,
+          "summary": "据Redmondmag.com报道，微软正押注嵌入式Agent、企业治理和模型选择，认为这些比赢得AI基准测试竞赛更重要。",
+          "whyItMatters": "表明科技巨头战略重心从模型性能转向平台生态，企业用户将获得更整合的AI解决方案。",
+          "trend": "AI竞争从模型性能转向平台与生态。",
+          "importance": 80
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "科技圈",
+      "icon": "💻",
+      "trendSummary": "AI需求驱动存储产业增长，长鑫科技上市创纪录；云计算业绩超预期带动算力板块反弹；存储芯片企业通过增持稳定市场信心。",
+      "items": [
+        {
+          "title": "长鑫科技登陆科创板，上市首日成交额创A股个股单日新高",
+          "link": "https://m.thepaper.cn/newsDetail_forward_33665114",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiVRGbvCnCotW3i8l7mUnR4FrFoS2Aw-WKKP9OZNIUsBKTjUw0ml9tfAc&usqp=CAI&s",
+          "snippet": "继京东方、蔚来之后，合肥模式的第三张金边名片长鑫科技成功上市。而此时，正逢AI 时代对存储需求的疯狂周期之中。 过去两年，谈起AI 基础设施，人们最常提到的是GPU、算力...",
+          "date": "4 天前",
+          "source": "ThePaper.cn",
+          "query": "半导体 消费电子 云计算 产业 最新 动态",
+          "candidateId": "tech-7",
+          "eventId": "643ed0225787cb5f7be9",
+          "parentEventId": "7769a371d748f0476531",
+          "eventSummary": "长鑫科技上市，AI时代存储需求旺盛。",
+          "isUpdate": true,
+          "summary": "2026年7月27日，长鑫科技（688825）正式登陆科创板，开盘价49.5元，涨幅471.59%，市值3.3万亿元。上市首日成交额超1000亿元，超过2024年10月9日东方财富的900亿元，创A股个股单日成交额新高。招股材料显示，AI需求增长和全球主要厂商调整产能推动DRAM供不应求和价格上涨。",
+          "whyItMatters": "长鑫科技作为中国最大、全球第四的DRAM厂商，其上市反映中国存储产业在AI需求驱动下的市场地位提升，可能影响全球存储芯片竞争格局。",
+          "trend": "AI需求持续驱动存储产业增长，中国存储厂商加速崛起。",
+          "importance": 80
+        },
+        {
+          "title": "亚马逊AWS营收增速创18个季度新高，A股算力板块强势反弹",
+          "link": "https://finance.sina.com.cn/jjxw/2026-07-31/doc-inikshrp4589274.shtml",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpSAneI0pt1DePfkxf6zOz9V-tqsdaICT0mEsXat2Cq9HzynERjE0Q5W8&usqp=CAI&s",
+          "snippet": "7月31日，A股三大指数盘中走强，通信、半导体等科技板块涨幅居前。通信ETF华夏（515050）截至10：38涨超7%，创业板人工智能ETF华夏（159381）涨10%。隔夜美股AI硬件反弹，...",
+          "date": "21小时前",
+          "source": "新浪财经",
+          "query": "半导体 消费电子 云计算 产业 最新 动态",
+          "candidateId": "tech-12",
+          "eventId": "3363bf8cdc4fd576f1a6",
+          "parentEventId": null,
+          "eventSummary": "亚马逊AWS增速创新高，算力板块反弹。",
+          "isUpdate": false,
+          "summary": "7月31日，A股算力板块强势反弹，通信ETF华夏（515050）涨超7%，创业板人工智能ETF华夏（159381）涨10%。此前，亚马逊公布第二财季AWS收入422亿美元，同比增长37%，高于市场预期的406亿美元，创18个季度以来最快增速，营业利润同比增长64%至166亿美元。",
+          "whyItMatters": "AWS业绩超预期反映云计算需求强劲，带动A股算力板块上涨，影响科技股投资情绪。",
+          "trend": "云计算需求持续增长，算力基础设施受市场关注。",
+          "importance": 75
+        },
+        {
+          "title": "兆易创新实控人朱一明拟斥资不低于10亿元增持公司股份",
+          "link": "https://www.ednchina.com/news/a14999.html",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtB5OHykpGTPMef2YafhTCPWuwQfN4DpwHbcLWbZN_LKSUi9CD45mV0Q0&usqp=CAI&s",
+          "snippet": "7月29日，国内存储芯片龙头企业兆易创新（603986）发布公告，正式披露控股股东、实际控制人朱一明的股份增持计划。朱一明拟斥资不低于10亿元增持公司A股股份，并同步...",
+          "date": "1 天前",
+          "source": "EDN China",
+          "query": "科技 新品 发布 芯片 机器人 智能硬件 最新",
+          "candidateId": "tech-6",
+          "eventId": "dd573c7e121586d3864c",
+          "parentEventId": null,
+          "eventSummary": "兆易创新实控人拟10亿元增持。",
+          "isUpdate": false,
+          "summary": "7月29日，兆易创新（603986）公告，控股股东、实际控制人朱一明拟斥资不低于10亿元增持公司A股股份，并提议公司回购10亿至20亿元。公告显示，增持不会改变控股股东及实控人主体，不影响企业上市资质。",
+          "whyItMatters": "实控人增持和回购计划显示对公司长期价值的信心，有助于稳定市场预期，影响投资者对存储芯片行业的判断。",
+          "trend": "存储芯片企业通过资本运作应对行业周期，增强市场信心。",
+          "importance": 65
+        }
+      ]
+    },
+    {
+      "id": "crossborder",
+      "name": "跨境电商",
+      "icon": "🌐",
+      "trendSummary": "跨境电商物流向海外仓本地化转移，平台业绩分化，直播电商和AI技术成为增长引擎。",
+      "items": [
+        {
+          "title": "Temu关停广东国内仓，布局德国波兰自营仓",
+          "link": "https://www.globalpod.cn/article/4294",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDnFgjQsQ1rryjVWwIXGx4cI-9CU_zrIBKpGV5P9sQjoySIk8jRZ4cP5s&usqp=CAI&s",
+          "snippet": "Temu 持续关停广东分散国内集货仓，大力布局德国、波兰欧洲自营仓。受欧盟小包新政、海外合规法规影响，跨境国内小包直邮模式红利不断收缩，深度解析仓网战略调整背后...",
+          "date": "20小时前",
+          "source": "全球定制网",
+          "query": "Amazon TikTok Shop Temu SHEIN 卖家 新规 最新",
+          "candidateId": "crossborder-7",
+          "eventId": "083d717c178ce57a3d90",
+          "parentEventId": null,
+          "eventSummary": "Temu关停广东国内仓，布局德波自营仓，小包直邮模式收缩。",
+          "isUpdate": false,
+          "summary": "据多个来源报道，Temu近期陆续关停广东多地国内仓，收缩全托管与Y2直发等跨境直邮链路，同时加速在德国、波兰落地十余个自营仓，并推进美国自建仓立项。",
+          "whyItMatters": "卖家需调整备货和物流策略，转向海外仓模式以应对欧盟新政，降低物流时效和合规风险。",
+          "trend": "跨境电商物流从国内直邮向海外仓本地化转移。",
+          "importance": 85
+        },
+        {
+          "title": "亚马逊2026年Q2净利润同比增长245%",
+          "link": "http://m.ebrun.com/691081.html",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKBMtGz76vz3Bv9U9rGTNpwIcQ6pRNCdXHiognE3QddwRHWR5CL7-lgY8&usqp=CAI&s",
+          "snippet": "亚马逊Q2净利增245%；美团推商家AI Agent CatPaw；TikTok Shop英国直播销售额年增55%；eBay收购Depop；天猫发布秋冬运动户外趋势白皮书。",
+          "date": "14小时前",
+          "source": "亿邦动力网",
+          "query": "跨境电商 平台 政策 流量 物流 选品 最新 趋势",
+          "candidateId": "crossborder-4",
+          "eventId": "aaf52704f7a345d0e74f",
+          "parentEventId": null,
+          "eventSummary": "亚马逊Q2净利增245%，TikTok Shop英国直播销售额年增55%。",
+          "isUpdate": false,
+          "summary": "亚马逊公布2026年第二季度财报，总营收同比增长20%至2006.06亿美元，净利润同比增长245%至626.47亿美元，AWS云业务收入同比增长37%至422亿美元。",
+          "whyItMatters": "亚马逊业绩强劲显示电商头部效应，AWS增长反映云和AI业务需求旺盛。",
+          "trend": "电商平台业绩分化，云和AI业务成为增长引擎。",
+          "importance": 80
+        }
+      ]
+    },
+    {
+      "id": "realestate",
+      "name": "房地产",
+      "icon": "🏠",
+      "trendSummary": "政策稳定宽松，制度框架加速定型；广州部分区域新房价格环比微跌。",
+      "items": [
+        {
+          "title": "2026年二季度中央房地产政策延续稳字当头、精准施策导向",
+          "link": "https://news.10jqka.com.cn/20260728/c678479563.shtml",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAXR1OnNSIM59aNXLbtX5RSiTTknC1loRUonWON8qAA6Fzql_s6_9Y3h0&usqp=CAI&s",
+          "snippet": "政策环境：稳定宽松. 1. 中央层面：制度框架加速定型，政策信号密集落地. 2026年第二季度，中央房地产政策延续“稳字当头、精准施策”的核心导向，政策重心进一步向“促发展、...",
+          "date": "3 天前",
+          "source": "同花顺",
+          "query": "中国 房地产 政策 成交 库存 房企 最新",
+          "candidateId": "realestate-1",
+          "eventId": "77fa7562d9c112bfe63d",
+          "parentEventId": null,
+          "eventSummary": "2026年二季度中央房地产政策延续稳字当头，制度框架加速定型。",
+          "isUpdate": false,
+          "summary": "2026年第二季度，中央房地产政策延续“稳字当头、精准施策”的核心导向，政策重心向“促发展、提品质、转模式”倾斜。二季度作为“十五五”规划开局的政策锚定期，中央政治局会议等释放密集政策信号。",
+          "whyItMatters": "政策环境稳定宽松，有助于稳定市场预期，购房者和房企可更从容决策。",
+          "trend": "政策从短期调控转向长期制度建设，促进市场平稳健康发展。",
+          "importance": 70
+        },
+        {
+          "title": "7月第4周广州黄埔新房均价30164元/平，环比下跌0.52%",
+          "link": "http://gz.newhouse.fang.com/2026-07-28/54943668.htm",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6DItkJYQ_WsRrMSFZ_kg-xPaezJNmHByr9NZcBg-u6nWp1Q3pwaQhepw&usqp=CAI&s",
+          "snippet": "置业安家是每个人的梦想，房价变动牵动着许多人的心弦，房天下为您带来本周最新的房价动态。",
+          "date": "3 天前",
+          "source": "房天下",
+          "query": "广州 楼市 天河 珠江新城 房价 成交 政策 最新",
+          "candidateId": "realestate-6",
+          "eventId": "e6dde43d4ab287f2eb12",
+          "parentEventId": null,
+          "eventSummary": "7月第4周广州黄埔新房均价30164元/平，环比下跌0.52%。",
+          "isUpdate": false,
+          "summary": "据房天下数据统计，7月第4周广州黄埔新房价格30164元/平，环比上周下跌0.52%。从商圈来看，知识城18806元/平，科学城板块29013元/平。",
+          "whyItMatters": "黄埔区房价下跌，可能吸引刚需购房者，但需关注区域供应和去化情况。",
+          "trend": "外围区域房价调整，市场分化明显。",
+          "importance": 55
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "name": "金融圈",
+      "icon": "📈",
+      "trendSummary": "地缘政治与央行政策主导市场，油价波动影响全球风险资产，黄金受美元和利率预期压制。",
+      "items": [
+        {
+          "title": "伊朗宣称袭击油轮推动布伦特原油站上90美元，全球市场震荡",
+          "link": "https://www.fx168news.com/article/%E7%BE%8E%E5%9B%BD%E8%82%A1%E5%B8%82-1067280",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3EYVug1QONs78a0sMMHLdCY2halL9wxpi0Vv5A7BitQsw8k0y7k2yBuI&usqp=CAI&s",
+          "snippet": "周五，全球金融市场在中东局势升级、美债收益率飙升和科技巨头财报分化的多重冲击下剧烈震荡。伊朗宣称袭击两艘途经霍尔木兹海峡的油轮，推动布伦特原油重新站上90...",
+          "date": "6小时前",
+          "source": "FX168财经",
+          "query": "美联储 全球金融 市场 利率 股票 黄金 最新",
+          "candidateId": "finance-11",
+          "eventId": "6e222188283157cf9614",
+          "parentEventId": null,
+          "eventSummary": "伊朗袭击油轮致油价破90美元，黄金比特币跳水",
+          "isUpdate": false,
+          "summary": "伊朗宣称袭击两艘途经霍尔木兹海峡的油轮，推动布伦特原油重新站上90美元/桶；美国长期国债收益率升至多年高位，市场对通胀和美联储加息的担忧加剧；美股震荡，黄金与比特币双双跳水。",
+          "whyItMatters": "中东局势升级推高油价，加剧通胀担忧，影响全球资产定价，投资者需警惕市场波动风险。",
+          "trend": "地缘政治风险重新成为市场主导因素，避险与风险资产走势分化加剧。",
+          "importance": 90
+        },
+        {
+          "title": "中东局势缓和油价下跌，全球股市和债市反弹",
+          "link": "https://theedgemalaysia.com/node/812049",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-MK1BNkBmY6CMa_o4FXnjvLW5qF9YL_sx760P4W31M-r4nnL1WyzLx1A&usqp=CAI&s",
+          "snippet": "Stock and bond markets across the globe staged a relief rally on Monday as easing Middle East tensions sent oil prices sliding and soothed inflation worries...",
+          "date": "5 days ago",
+          "source": "The Edge Malaysia",
+          "query": "global markets central bank rates stocks bonds latest",
+          "candidateId": "finance-23",
+          "eventId": "353cfd60308225d46634",
+          "parentEventId": null,
+          "eventSummary": "中东局势缓和油价下跌，全球股债反弹",
+          "isUpdate": false,
+          "summary": "由于中东紧张局势缓和，油价下滑，缓解了通胀担忧，周一全球股市和债券市场出现反弹。",
+          "whyItMatters": "油价回落缓解通胀压力，提振市场风险偏好，对股债投资者构成短期利好。",
+          "trend": "地缘政治缓和与油价波动仍是影响全球风险资产的关键变量。",
+          "importance": 80
+        },
+        {
+          "title": "美联储决议前金价跌至一周低点，现货黄金下探4011.54美元",
+          "link": "https://finance.sina.com.cn/money/nmetal/hjfx/2026-07-29/doc-iniknezp2584338.shtml",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkmvLLhKQtmsz0lzmv3P-JVELOmAJp3_0IkmBq6zPdduW9G7qtAPOarBU&usqp=CAI&s",
+          "snippet": "黄金：. 7月29日，在美联储利率决议即将揭晓的关键时刻，国际金价周二（7月29日）却跌至一周低点，现货黄金一度下探至每盎司4011.54美元，收盘报4028.42美元，单日跌幅...",
+          "date": "2 天前",
+          "source": "新浪财经",
+          "query": "美联储 全球金融 市场 利率 股票 黄金 最新",
+          "candidateId": "finance-12",
+          "eventId": "31a59bca038d9f0d081c",
+          "parentEventId": null,
+          "eventSummary": "美联储决议前黄金跌至一周低点",
+          "isUpdate": false,
+          "summary": "7月29日，在美联储利率决议即将揭晓的关键时刻，国际金价跌至一周低点，现货黄金一度下探至每盎司4011.54美元，收盘报4028.42美元，单日跌幅明显。",
+          "whyItMatters": "美联储决议前黄金波动加大，反映市场对利率路径的敏感，投资者需关注决议后金价方向。",
+          "trend": "央行政策预期主导贵金属短期走势，市场情绪谨慎。",
+          "importance": 75
+        }
+      ]
+    },
+    {
+      "id": "football",
+      "name": "足球圈 · 重磅转会",
+      "icon": "⚽",
+      "trendSummary": "多家俱乐部以创纪录转会费引进年轻球员或教练，转会市场投资热度上升。",
+      "items": [
+        {
+          "title": "纽卡斯尔联将任命马蒂亚斯·雅伊斯勒为新帅，支付950万英镑解约金",
+          "link": "https://www.skysports.com/football/news/11678/13568841/matthias-jaissle-newcastle-to-appoint-german-as-new-boss-on-saturday-after-eddie-howe-exit-confirmed",
+          "imageUrl": null,
+          "snippet": "Newcastle have agreed to pay £9.5m compensation to Saudi side Al Ahli to appoint Matthias Jaissle as Eddie Howes successor; Howes exit confirmed on Friday;...",
+          "date": "6 hours ago",
+          "source": "Sky Sports",
+          "query": "site:skysports.com/football transfer confirmed signs joins latest",
+          "candidateId": "football-27",
+          "eventId": "a6d7d2710b4ed3cc8912",
+          "parentEventId": null,
+          "eventSummary": "纽卡斯尔将任命雅伊斯勒为新帅，支付950万英镑赔偿金。",
+          "isUpdate": false,
+          "summary": "天空体育报道，纽卡斯尔联已同意向沙特阿尔阿赫利支付950万英镑（约1100万欧元）赔偿金，任命马蒂亚斯·雅伊斯勒接替埃迪·豪，预计周六官宣。",
+          "whyItMatters": "纽卡斯尔联换帅将影响球队战术体系和引援方向，新帅雅伊斯勒的执教理念可能带来阵容调整。",
+          "trend": "俱乐部为聘请心仪教练支付高额解约金，教练市场价值上升。",
+          "importance": 78
+        },
+        {
+          "title": "利兹联接近以创纪录转会费签下曼城门将特拉福德",
+          "link": "https://www.skysports.com/football/news/11095/13567551/leeds-united-transfer-news-james-trafford-deal-moving-nearer-as-club-record-deal-close-to-being-reached-with-manchester-city",
+          "imageUrl": null,
+          "snippet": "James Trafford is edging closer to a move to Leeds United from Manchester City; the move is set to be a club-record fee for Leeds, worth at least £40m plus...",
+          "date": "3 days ago",
+          "source": "Sky Sports",
+          "query": "site:skysports.com/football transfer confirmed signs joins latest",
+          "candidateId": "football-26",
+          "eventId": "2aa7a5c8e1989ca9ef72",
+          "parentEventId": null,
+          "eventSummary": "利兹联接近以至少4000万英镑签下曼城门将特拉福德，创队史纪录。",
+          "isUpdate": false,
+          "summary": "天空体育报道，利兹联接近与曼城就门将詹姆斯·特拉福德达成协议，转会费至少4000万英镑，将创利兹联队史纪录。",
+          "whyItMatters": "利兹联以创纪录价格引进年轻门将，增强防守实力，同时曼城获得可观资金。",
+          "trend": "英冠球队通过高额引援冲击升级，转会费纪录不断刷新。",
+          "importance": 70
+        }
+      ]
+    }
+  ],
+  "weeklyDigest": null
+}
