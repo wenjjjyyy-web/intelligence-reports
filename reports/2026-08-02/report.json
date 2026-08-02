@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "reportDate": "2026-08-02",
+  "generatedAt": "2026-08-02T00:00:03.897Z",
+  "indicators": {
+    "btc": {
+      "price": 62823.65,
+      "change": -0.121,
+      "source": "Binance Public Data",
+      "updatedAt": "2026-08-02T00:00:04.710Z"
+    },
+    "gold": {
+      "usdPerOunce": 4043.699951,
+      "source": "Gold-API",
+      "updatedAt": "2026-08-01T23:59:48.000Z"
+    },
+    "csi300": {
+      "price": 4588.1968,
+      "change": 0.8456937823493839,
+      "source": "新浪财经",
+      "marketDate": "2026-07-31",
+      "marketTime": "16:19:34"
+    },
+    "usdcny": {
+      "rate": 6.764897,
+      "source": "ExchangeRate-API",
+      "updatedAt": "2026-08-01T00:02:31.000Z"
+    },
+    "housing": {}
+  },
+  "categories": [
+    {
+      "id": "ai",
+      "name": "AI 圈",
+      "icon": "🤖",
+      "trendSummary": "百度AI转向B端并启用孙天祥，大模型竞争从C端转向B端，企业级AI应用成为新战场。",
+      "items": [
+        {
+          "title": "百度AI转向B端并启用孙天祥，大模型赛道竞争加剧",
+          "link": "https://finance.sina.cn/stock/jdts/2026-07-27/detail-inikfnpf3092344.d.html",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-lsmxtcGHlGonFL0hiOU2CxQYS4NgRKaoKveGmJUR2joCq55GL8oVZBc&usqp=CAI&s",
+          "snippet": "（来源：Tech星球） 来源| Tech星球文| 任雪芸2026年赛程过半，大模型赛道的聚光灯下早已换了主角。 行业讨论更多的是，腾讯的Workbuddy、阿里的千问、字节的豆包...",
+          "date": "5 天前",
+          "source": "新浪财经",
+          "query": "Kimi K3 DeepSeek 通义 豆包 新模型 功能 优势 性能",
+          "candidateId": "ai-10",
+          "eventId": "aba8dec9161d5a36430c",
+          "parentEventId": null,
+          "eventSummary": "百度AI转向B端并启用孙天祥。",
+          "isUpdate": false,
+          "summary": "据Tech星球报道，百度AI战略转向B端，并启用孙天祥负责相关业务。当前行业焦点集中在腾讯Workbuddy、阿里千问、字节豆包等产品上。",
+          "whyItMatters": "百度作为重要玩家调整战略，可能影响国内AI竞争格局，B端客户或迎来更多选择。",
+          "trend": "大模型竞争从C端转向B端，企业级AI应用成为新战场。",
+          "importance": 70
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "科技圈",
+      "icon": "💻",
+      "trendSummary": "禾赛科技发布多项物理AI新品，推动空间智能与机器人核心部件发展；圣彼得堡学院推出半导体洁净室课程，应对行业人才需求。",
+      "items": [
+        {
+          "title": "禾赛科技发布6D全彩激光雷达芯片、4320线激光雷达、空间智能硬件及机器人动力模组",
+          "link": "https://chejiahao.autohome.com.cn/info/25245105",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCBDJy4PRL8v8HY-lQqNOKQDj_fDKx3Wd5cIoDNqY&usqp=CAI&s",
+          "snippet": "现场感受：当前物理AI产业迈入关键突破期，真实世界空间数据稀缺、三维感知精度不足、色彩与深度信息割裂，长期制约行业发展。4月17日，禾赛科技2026技术开放日重磅...",
+          "date": "1 天前",
+          "source": "汽车之家",
+          "query": "科技 新品 发布 芯片 机器人 智能硬件 最新",
+          "candidateId": "tech-2",
+          "eventId": "12bbfc257df1901b8714",
+          "parentEventId": null,
+          "eventSummary": "禾赛发布6D全彩激光雷达等四类新品，切入具身智能领域。",
+          "isUpdate": false,
+          "summary": "4月17日，禾赛科技在2026技术开放日发布全球首款6D全彩SPAD-SoC芯片、最高4320线激光雷达、空间智能AI硬件Kosmo及机器人动力模组，并宣布战略从“空间感知”升级为“空间智能”。",
+          "whyItMatters": "这些产品旨在解决真实世界空间数据稀缺、三维感知精度不足等问题，可能为机器人提供高精度三维感知能力，推动具身智能发展。",
+          "trend": "激光雷达厂商向机器人核心部件拓展，物理AI产业链加速整合。",
+          "importance": 85
+        },
+        {
+          "title": "圣彼得堡学院推出半导体洁净室操作员证书课程",
+          "link": "https://cleanroomtechnology.com/st-petersburg-college-launches-semiconductor-cleanroom-operator-certificate",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS8BXhxsalhOxVm281ohvPP_LZVB93wUq_8l3VxJ3heQvoaEmJyP8omOU&usqp=CAI&s",
+          "snippet": "A Florida university has established a new 18-credit programme to equip students with cleanroom manufacturing skills for the semiconductor industry,...",
+          "date": "2 days ago",
+          "source": "Cleanroom Technology",
+          "query": "technology launch semiconductor robotics consumer tech latest",
+          "candidateId": "tech-21",
+          "eventId": "1474d93a5e63d89fb4d1",
+          "parentEventId": null,
+          "eventSummary": "SPC推出半导体洁净室操作员证书课程。",
+          "isUpdate": false,
+          "summary": "美国佛罗里达州圣彼得堡学院推出18学分的半导体洁净室操作员证书课程，课程涵盖半导体材料加工、洁净室安全与程序、设备操作等，将于今年秋季开课，旨在培养半导体制造入门级人才。",
+          "whyItMatters": "半导体行业面临人才短缺，该课程有助于培养专业人才，支持产业扩张。",
+          "trend": "半导体产业扩张带动教育配套，人才培养成为重点。",
+          "importance": 50
+        }
+      ]
+    },
+    {
+      "id": "crossborder",
+      "name": "跨境电商",
+      "icon": "🌐",
+      "trendSummary": "今日候选未通过事件去重与事实核验：stream has been aborted",
+      "items": []
+    },
+    {
+      "id": "realestate",
+      "name": "房地产",
+      "icon": "🏠",
+      "trendSummary": "近期房地产政策持续宽松，市场呈现结构性回暖，二手房交易占比提升，核心区域房价分化。",
+      "items": []
+    },
+    {
+      "id": "finance",
+      "name": "金融圈",
+      "icon": "📈",
+      "trendSummary": "全球金融市场股债分化，长期国债收益率上升，美联储维持利率但内部分歧明显，芯片股波动拖累股市，油价下跌。",
+      "items": [
+        {
+          "title": "主要工业国长期国债收益率升至二十年新高，债市承压股市走强",
+          "link": "https://finance.sina.cn/2026-05-25/detail-inhzascp5186178.d.html?cid=76524&node_id=76524",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6kE2oSrpbh7X9qYg4-h6MLQ4zYtIe4XVc9AE8uQk&usqp=CAI&s",
+          "snippet": "主要工业国长期国债收益率升至二十年新高。 债市在爆雷，股市在冲锋，全球金融市场显得有点“精神分裂”。 主要工业国长期国债收益率升至二十年新高...",
+          "date": "1 天前",
+          "source": "新浪财经",
+          "query": "美联储 全球金融 市场 利率 股票 黄金 最新",
+          "candidateId": "finance-11",
+          "eventId": "4cf5205123216102063e",
+          "parentEventId": null,
+          "eventSummary": "主要工业国长期国债收益率升至二十年新高，股债市场分化。",
+          "isUpdate": false,
+          "summary": "据新浪财经报道，主要工业国长期国债收益率升至二十年新高，债市承压，而股市表现强劲，市场呈现分化格局。",
+          "whyItMatters": "长期国债收益率上升可能推高融资成本，影响资产定价，投资者需关注股债配置风险。",
+          "trend": "全球利率中枢上移，股债相关性减弱，市场波动加剧。",
+          "importance": 85
+        },
+        {
+          "title": "美联储维持利率不变但内部分歧明显，现货黄金反弹至约4080美元",
+          "link": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-07-30/doc-inikpxkt1984918.shtml",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJLFhYxB9TCCN6FfGdJt7XCNQgSb7mg_ZyKXSvSZTZkC7IvEjM5p9BsME&usqp=CAI&s",
+          "snippet": "文章来源：汇通财经. 国际黄金价格周四亚洲交易时段出现反弹，现货黄金（XAU/USD）上涨至约4080美元附近，市场主要受到美联储利率决议以及全球避险情绪升温的双重影响...",
+          "date": "2 天前",
+          "source": "新浪财经",
+          "query": "美联储 全球金融 市场 利率 股票 黄金 最新",
+          "candidateId": "finance-13",
+          "eventId": "752c7ce835a59550bbff",
+          "parentEventId": null,
+          "eventSummary": "美联储维持利率但鹰派分歧升温，黄金反弹至4080美元附近。",
+          "isUpdate": false,
+          "summary": "美联储在7月货币政策会议上决定维持联邦基金利率目标区间在3.50%-3.75%不变，符合市场预期，但政策声明显示内部分歧明显。现货黄金反弹至约4080美元附近。",
+          "whyItMatters": "美联储政策路径不明朗，黄金区间震荡，投资者需关注后续通胀数据和央行表态。",
+          "trend": "央行政策分歧加大，黄金避险与利率博弈持续。",
+          "importance": 80
+        },
+        {
+          "title": "7月16日全球股市因芯片股抛售下跌，油价回落",
+          "link": "https://www.reuters.com/world/china/global-markets-global-markets-2026-07-16/",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6e7IaPeEBnvuADaGFlcya4_XrPMuK7Kb6JD7oCaT1sO2skWDwsA7oFm0&usqp=CAI&s",
+          "snippet": "NEW YORK/LONDON, July 16 (Reuters) - Equity indexes around the world fell on Thursday as investors offloaded heavy-weight chip stocks while ​the U.S. dollar...",
+          "date": "2 weeks ago",
+          "source": "Reuters",
+          "query": "global markets central bank rates stocks bonds latest",
+          "candidateId": "finance-19",
+          "eventId": "a6df14b25264bf06d558",
+          "parentEventId": null,
+          "eventSummary": "7月16日全球股市因芯片股抛售下跌，油价下跌。",
+          "isUpdate": false,
+          "summary": "据路透社报道，7月16日全球股市因投资者抛售权重芯片股而下跌，美元走强，油价亦有所回落。",
+          "whyItMatters": "芯片股波动影响科技板块和全球市场情绪，油价下跌缓解通胀压力，但需关注后续走势。",
+          "trend": "科技股估值调整与能源价格波动交织，市场敏感度上升。",
+          "importance": 75
+        }
+      ]
+    },
+    {
+      "id": "football",
+      "name": "足球圈 · 重磅转会",
+      "icon": "⚽",
+      "trendSummary": "今日候选未通过事件去重与事实核验：Material update requires a relatedEventId from recent histo…",
+      "items": []
+    }
+  ],
+  "weeklyDigest": null
+}
