@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 1,
+  "reportDate": "2026-08-04",
+  "generatedAt": "2026-08-04T00:00:05.495Z",
+  "indicators": {
+    "btc": {
+      "price": 63537.52,
+      "change": -0.077,
+      "source": "Binance Public Data",
+      "updatedAt": "2026-08-04T00:00:05.896Z"
+    },
+    "gold": {
+      "usdPerOunce": 4054.199951,
+      "source": "Gold-API",
+      "updatedAt": "2026-08-03T23:59:53.000Z"
+    },
+    "csi300": {
+      "price": 4543.1781,
+      "change": -0.9811850267625754,
+      "source": "新浪财经",
+      "marketDate": "2026-08-03",
+      "marketTime": "16:19:41"
+    },
+    "usdcny": {
+      "rate": 6.759763,
+      "source": "ExchangeRate-API",
+      "updatedAt": "2026-08-03T00:02:32.000Z"
+    },
+    "housing": {}
+  },
+  "categories": [
+    {
+      "id": "ai",
+      "name": "AI 圈",
+      "icon": "🤖",
+      "trendSummary": "AI模型性能提升与价格下降并行，办公与视频生成领域竞争加剧。",
+      "items": [
+        {
+          "title": "DeepSeek-V4-Flash正式版于7月31日上线，性能追平旗舰模型",
+          "link": "https://www.cls.cn/detail/2443548",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUG2EgSsqxWVgKGbW16o5dpvuhsRQ9hJdyoQHOm0-KDr_7G1XIes8UXvU&usqp=CAI&s",
+          "snippet": "《科创板日报》8月2日讯（编辑宋子乔） DeepSeek-V4系列模型迎来重大升级。抢在7月最后一天（31日），DeepSeek-V4-Flash正式版上线。 根据官方消息，DeepSeek-V4-Flash...",
+          "date": "1 天前",
+          "source": "财联社",
+          "query": "AI Agent 产品 发布 功能 升级 最新",
+          "candidateId": "ai-9",
+          "eventId": "21870df11d82bb53d8dd",
+          "parentEventId": null,
+          "eventSummary": "DeepSeek-V4-Flash正式版发布，性能追平旗舰，Agent能力增强。",
+          "isUpdate": false,
+          "summary": "据财联社等媒体报道，DeepSeek-V4-Flash正式版于7月31日上线，采用MoE架构，总参数2840亿，激活参数130亿，上下文长度1M。后训练使Agent能力大幅增强，整体性能超过GLM-5.2，逼近Opus 4.8。",
+          "whyItMatters": "DeepSeek以较小参数模型实现接近旗舰性能，可能降低企业应用AI的门槛，并加剧模型价格竞争。",
+          "trend": "开源模型性能持续逼近闭源，价格战可能加剧。",
+          "importance": 90
+        },
+        {
+          "title": "字节跳动发布AI视频生成模型Seedance 2.5，支持单次生成30秒视频",
+          "link": "https://k.sina.com.cn/article_7879922980_1d5ae152406801iwf8.html",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCRazjZK6pSKvRVVqAScFqdpwHU8kM1r1hWt5F5pukalw57E-0mUFqzrc&usqp=CAI&s",
+          "snippet": "字节跳动于2026年7月31日正式发布新一代AI视频生成模型Seedance 2.5，并接入豆包专业版，最大的突破是能单次直出30秒连贯视频，解决了以往AI视频时长短、容易“人物...",
+          "date": "3 天前",
+          "source": "手机新浪网",
+          "query": "AI Agent 产品 发布 功能 升级 最新",
+          "candidateId": "ai-15",
+          "eventId": "47236f4add0f2c1385a3",
+          "parentEventId": null,
+          "eventSummary": "字节发布Seedance 2.5，支持30秒连贯视频生成。",
+          "isUpdate": false,
+          "summary": "据新浪财经等报道，字节跳动于7月31日发布Seedance 2.5，并接入豆包专业版。该模型可单次生成30秒连贯视频，支持多轮延长和局部编辑，优化了镜头衔接和场景过渡。",
+          "whyItMatters": "视频生成时长和连贯性提升，有助于内容创作者和营销人员提高效率。",
+          "trend": "AI视频生成向长时长、高连贯性发展。",
+          "importance": 85
+        },
+        {
+          "title": "DeepSeek发布低价编码模型，AI服务价格持续下降",
+          "link": "https://www.axios.com/2026/08/01/deepseek-model-cheap-ai-price-war",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyLT51ShDRhWebelZFAxLLSj04uePwKlXNgKcpy8P7hxOALmovEA-bea4&usqp=CAI&s",
+          "snippet": "Chinese AI lab DeepSeek released a powerful new coding model Friday that charges pennies for vast amounts of code — the latest sign that some of the...",
+          "date": "2 days ago",
+          "source": "Axios",
+          "query": "AI model launch product update latest OpenAI Anthropic Google xAI Meta",
+          "candidateId": "ai-17",
+          "eventId": "b7460cd3ad7b665a3113",
+          "parentEventId": null,
+          "eventSummary": "DeepSeek发布低价编码模型，加速AI价格下降。",
+          "isUpdate": false,
+          "summary": "据Axios报道，DeepSeek发布新的编码模型，以极低价格提供大量代码生成。另据腾讯新闻报道，OpenAI的GPT-5.6 Luna上线3周后输入和输出价格均下调约80%。",
+          "whyItMatters": "低价模型降低开发者成本，可能引发行业价格战，加速AI服务普惠化。",
+          "trend": "AI服务价格持续走低，普惠化加速。",
+          "importance": 82
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "科技圈",
+      "icon": "💻",
+      "trendSummary": "科技行业动态分化：AI算力与存储芯片市场波动，消费电子竞争加剧，企业AI投资升温。",
+      "items": [
+        {
+          "title": "三星电子与SK海力士股价重挫，韩股震荡引发存储芯片周期担忧",
+          "link": "https://www.ebc.com/zh-cn/jinrong/305942.html",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKFys-Zsm8pROxLhaDeuI6zVqi_qph1mdSu7lQpMlW63q2pAdidNzAxys&usqp=CAI&s",
+          "snippet": "韩国股市近期明显下跌，三星电子与SK海力士等大型半导体权重股遭到集中抛售。由于两家公司在KOSPI指数中占比较高，当三星、海力士股价同时下跌时，往往会放大韩股整体...",
+          "date": "15小时前",
+          "source": "EBC Financial Group",
+          "query": "半导体 消费电子 云计算 产业 最新 动态",
+          "candidateId": "tech-14",
+          "eventId": "76d83f24990d4ba17fa6",
+          "parentEventId": null,
+          "eventSummary": "三星、海力士股价重挫，存储芯片周期可能见顶。",
+          "isUpdate": false,
+          "summary": "韩国股市近期下跌，三星电子与SK海力士遭集中抛售，三星电子跌幅约8%，SK海力士跌超7%，拖累KOSPI指数。市场对存储芯片周期见顶产生担忧。",
+          "whyItMatters": "存储芯片是科技行业基础，三星和海力士股价波动影响全球半导体供应链和投资者信心。",
+          "trend": "存储芯片市场可能进入调整期，需关注供需变化。",
+          "importance": 75
+        },
+        {
+          "title": "A股算力板块强势反弹，云计算ETF涨超8%",
+          "link": "https://www.fx168news.com/article/1067005",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEtOIyuuaxijT-NxyCTRs70t6xftJxMYDk2XPKLrv6Mf3BKrxDvuO6Af8&usqp=CAI&s",
+          "snippet": "2026年7月31日，Wind数据显示，A股三大指数今日集体反弹，截止收盘，沪指涨0.72%；深证成指涨2.21%；创业板指涨3.06%。沪深京三市成交额2.56万亿。 涨幅方面，云计算及...",
+          "date": "3 天前",
+          "source": "FX168财经",
+          "query": "半导体 消费电子 云计算 产业 最新 动态",
+          "candidateId": "tech-15",
+          "eventId": "d130a32a24d31b5ddfbe",
+          "parentEventId": null,
+          "eventSummary": "A股云计算ETF涨超8%，算力板块反弹。",
+          "isUpdate": false,
+          "summary": "2026年7月31日，A股三大指数集体反弹，沪指涨0.72%，深证成指涨2.21%，创业板指涨3.06%。云计算ETF涨超8%，算力板块表现强势，沪深京三市成交额2.56万亿。",
+          "whyItMatters": "云计算和算力板块的上涨反映了市场对AI基础设施需求的乐观预期，影响相关投资和产业布局。",
+          "trend": "AI算力需求持续增长，带动资本市场相关板块活跃。",
+          "importance": 65
+        }
+      ]
+    },
+    {
+      "id": "crossborder",
+      "name": "跨境电商",
+      "icon": "🌐",
+      "trendSummary": "跨境电商头部平台业绩分化，亚马逊利润大增，eBay完成对Depop的收购，TikTok Shop测试会员服务。",
+      "items": [
+        {
+          "title": "SHEIN去年净收入达321亿美元，亚马逊二季度利润同比大增245%，TikTok Shop在美测试Plus会员服务",
+          "link": "https://www.ebrun.com/20260802/692127.shtml",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRavrNldQKG9-o0abi6n5RIzx_8njxUML7mlm_ihyE44l5gJ5dN8Kxj62Y&usqp=CAI&s",
+          "snippet": "SHEIN去年净收入达321亿美元；亚马逊二季度利润同比大增245%；TikTok Shop在美测试Plus会员服务.",
+          "date": "1 天前",
+          "source": "亿邦动力网",
+          "query": "Amazon TikTok Shop Temu SHEIN 卖家 新规 最新",
+          "candidateId": "crossborder-9",
+          "eventId": "018b9a3270a692204c1e",
+          "parentEventId": "aaf52704f7a345d0e74f",
+          "eventSummary": "亚马逊Q2净利增245%，TikTok Shop英国直播销售额年增55%。",
+          "isUpdate": true,
+          "summary": "据亿邦动力网报道，SHEIN去年净收入达321亿美元；亚马逊二季度净利润同比大增245%；TikTok Shop在美国测试Plus会员服务。",
+          "whyItMatters": "SHEIN的营收规模显示其市场影响力，亚马逊利润增长反映电商巨头盈利能力，TikTok Shop的Plus会员服务可能改变用户购物体验和卖家流量分配。",
+          "trend": "头部平台业绩分化，新兴平台通过会员制增强用户粘性。",
+          "importance": 85
+        },
+        {
+          "title": "eBay以12亿美元完成对二手时尚平台Depop的收购",
+          "link": "https://www.globalpod.cn/article/4305",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD4J97oIyRh2LaJipR6CR57ch3GzoUXG5Cu2DX_NgipcwuG7o-2xw_emM&usqp=CAI&s",
+          "snippet": "2026 年7 月重磅交割完成，eBay 斥资12 亿接盘Depop，相比Etsy 当年高价买入大幅折价。本文详解本次并购背后的行业逻辑、Z 世代潮流消费趋势、双平台协同机会与潜在...",
+          "date": "2 天前",
+          "source": "全球定制网",
+          "query": "跨境电商 平台 政策 流量 物流 选品 最新 趋势",
+          "candidateId": "crossborder-8",
+          "eventId": "bea2aaba048b391ecbf9",
+          "parentEventId": null,
+          "eventSummary": "eBay完成对Depop的12亿美元收购。",
+          "isUpdate": false,
+          "summary": "据亿邦动力网报道，eBay已正式完成对二手时尚C2C平台Depop的收购，交易对价12亿美元，该交易已获得美国、德国、澳大利亚及英国监管机构批准。",
+          "whyItMatters": "eBay通过收购Depop强化Z世代二手时尚市场布局，卖家可能获得更多年轻用户流量，二手交易平台竞争加剧。",
+          "trend": "二手电商和Z世代消费成为平台并购热点。",
+          "importance": 80
+        },
+        {
+          "title": "亚马逊Q2净利增245%，eBay完成收购Depop，TikTok Shop英国直播销售额年增55%",
+          "link": "https://www.ebrun.com/20260731/691081.shtml",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSelMtNWQx3tHy-V596qwMZAjksYI9z21uSrpTnGyBRJM7Ae__eh4UNR7I&usqp=CAI&s",
+          "snippet": "亚马逊Q2净利增245%；美团推商家AI Agent CatPaw；TikTok Shop英国直播销售额年增55%；eBay收购Depop；天猫发布秋冬运动户外趋势白皮书。",
+          "date": "3 天前",
+          "source": "亿邦动力网",
+          "query": "跨境电商 平台 政策 流量 物流 选品 最新 趋势",
+          "candidateId": "crossborder-2",
+          "eventId": "31ed5385376c17a340af",
+          "parentEventId": "aaf52704f7a345d0e74f",
+          "eventSummary": "亚马逊Q2净利增245%，TikTok Shop英国直播销售额年增55%。",
+          "isUpdate": true,
+          "summary": "据亿邦动力网报道，亚马逊2026年第二季度净利润同比增长245%；eBay以12亿美元完成对Depop的收购；TikTok Shop英国直播销售额年增55%。",
+          "whyItMatters": "亚马逊业绩强劲，eBay收购Depop影响二手市场，TikTok Shop直播增长显著，卖家需关注平台动态。",
+          "trend": "平台业绩分化，直播电商和二手市场成亮点。",
+          "importance": 80
+        }
+      ]
+    },
+    {
+      "id": "realestate",
+      "name": "房地产",
+      "icon": "🏠",
+      "trendSummary": "房地产供给端收缩，一线城市房价企稳，政策微调，土地供应与去化周期挂钩。",
+      "items": [
+        {
+          "title": "国家统计局：上半年新开工面积同比下降23.4%，房地产开发投资同比下降18.0%",
+          "link": "https://zhuanlan.zhihu.com/p/2065077507305612841",
+          "imageUrl": null,
+          "snippet": "1~6月新开工面积同比下降23.4%，房地产开发投资同比下降18.0%，供给端缩量，房企“以销定产”，是库存回落的主要原因，真正意义上的市场回暖，还需要下半年成交的实质修复来 ...",
+          "date": "7 days ago",
+          "source": "",
+          "query": "中国 房地产 政策 成交 库存 房企 最新",
+          "candidateId": "realestate-4",
+          "eventId": "94df937fe402880bbcd2",
+          "parentEventId": null,
+          "eventSummary": "上半年新开工面积同比下降23.4%，开发投资同比下降18.0%",
+          "isUpdate": false,
+          "summary": "据国家统计局数据，1-6月房屋新开工面积同比下降23.4%，房地产开发投资同比下降18.0%，供给端缩量，房企“以销定产”，库存回落。",
+          "whyItMatters": "供给收缩可能缓解库存压力，但投资下滑影响经济，需关注后续政策。",
+          "trend": "供给端缩量，市场以去库存为主。",
+          "importance": 85
+        },
+        {
+          "title": "3月以来一线城市新房和二手房价格环比连续4个月上涨",
+          "link": "https://news.qq.com/rain/a/20260730A0C8BO00",
+          "imageUrl": null,
+          "snippet": "3月以来，一线城市新建商品住宅、二手住宅销售价格环比均连续4个月上涨。中指研究院数据显示，7月以来，重点城市新房、二手房成交规模同比均小幅增长，但部分三四线城市 ...",
+          "date": "4 days ago",
+          "source": "",
+          "query": "中国 房地产 政策 成交 库存 房企 最新",
+          "candidateId": "realestate-5",
+          "eventId": "22293a47cf6762a2f014",
+          "parentEventId": null,
+          "eventSummary": "一线城市房价环比连续4个月上涨",
+          "isUpdate": false,
+          "summary": "3月以来，一线城市新建商品住宅、二手住宅销售价格环比均连续4个月上涨；7月以来重点城市新房、二手房成交规模同比小幅增长。",
+          "whyItMatters": "一线城市房价企稳回升，可能带动市场信心恢复。",
+          "trend": "一线城市房价企稳，市场筑底回稳。",
+          "importance": 82
+        },
+        {
+          "title": "一线城市房地产政策“小步快跑”优化调整，持续释放利好",
+          "link": "https://cn.chinadaily.com.cn/a/202607/28/WS6a68ab9fa310d709c2fc0414.html",
+          "imageUrl": null,
+          "snippet": "一线城市房地产政策“小步快跑”优化调整，正在持续释放利好。去年底，北京放宽非京籍家庭购房条件；4月底，深圳进一步优化调整住房限购政策和住房公积金贷款政策，广州提高 ...",
+          "date": "6 days ago",
+          "source": "",
+          "query": "中国 房地产 政策 成交 库存 房企 最新",
+          "candidateId": "realestate-2",
+          "eventId": "c854ce64042c517d15e1",
+          "parentEventId": null,
+          "eventSummary": "一线城市房地产政策“小步快跑”优化调整",
+          "isUpdate": false,
+          "summary": "去年底北京放宽非京籍家庭购房条件，4月底深圳优化住房限购和公积金贷款政策，广州提高相关支持。",
+          "whyItMatters": "一线城市政策微调可能降低购房门槛，释放刚需和改善需求。",
+          "trend": "一线城市政策持续微调，精准施策。",
+          "importance": 80
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "name": "金融圈",
+      "icon": "📈",
+      "trendSummary": "美联储政策分歧与改革动向引发市场关注，黄金ETF资金流入，央行部署下半年工作。",
+      "items": [
+        {
+          "title": "美联储7月会议维持利率不变，三名委员反对并要求加息25个基点",
+          "link": "https://finance.sina.com.cn/money/nmetal/hjfx/2026-08-03/doc-inikzeat6083931.shtml",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnMzZ4i4TCIZ_6a7RMCfe_ChbhD5xkCuA2vIVvA1JFXs8b1DRmES8N9F8&usqp=CAI&s",
+          "snippet": "本周全球宏观迎来多重关键事件集中落地：美联储 7 月FOMC 会议出现2016 年以来最大内部分歧，鲍威尔表态“鹰中带变”，首次释放通胀目标框架调整信号；美国二季度GDP 增...",
+          "date": "24小时前",
+          "source": "新浪财经",
+          "query": "中国 金融 央行 股市 债市 政策 最新 重磅",
+          "candidateId": "finance-5",
+          "eventId": "2ca69e7104843d5080ec",
+          "parentEventId": null,
+          "eventSummary": "美联储7月FOMC出现2016年来最大内部分歧，鲍威尔释放通胀框架调整信号。",
+          "isUpdate": false,
+          "summary": "美联储7月FOMC会议以9票赞成、3票反对维持联邦基金利率目标区间在3.5%-3.75%不变，连续第五次按兵不动。三名投反对票的地方联储主席主张加息25个基点，这是自2016年以来美联储首次在同一次政策决议中出现三张反对票。",
+          "whyItMatters": "美联储内部分歧加大，可能预示未来货币政策路径存在不确定性，影响全球资产定价和投资者预期。",
+          "trend": "美联储决策不确定性上升，市场对政策沟通的依赖增强。",
+          "importance": 90
+        },
+        {
+          "title": "中国人民银行召开2026年下半年工作会议，部署八大重点工作",
+          "link": "https://finance.sina.com.cn/jjxw/2026-08-02/doc-inikxwic6637673.shtml",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrefSBV7V-zhJEBccRwc66WOhAVbu7f5cZWmjlFCGqIYIZYepE2b9HJc0&usqp=CAI&s",
+          "snippet": "来源：北京商报. 作者：刘四红. 货币政策方向、金融市场建设、金融风险处置等多个市场关注的重点，再迎人民银行重磅发声。 8月1日，人民银行召开2026年下半年工作...",
+          "date": "1 天前",
+          "source": "新浪财经",
+          "query": "中国 金融 央行 股市 债市 政策 最新 重磅",
+          "candidateId": "finance-2",
+          "eventId": "690355c2f1d672299e7b",
+          "parentEventId": null,
+          "eventSummary": "人民银行召开2026年下半年工作会议，部署增量政策与信贷规范。",
+          "isUpdate": false,
+          "summary": "8月1日，中国人民银行召开2026年下半年工作会议，强调实施适度宽松货币政策，加大逆周期调节，规范信贷市场经营行为，促进降低融资中间费用，保持社会综合融资成本低位运行。",
+          "whyItMatters": "央行下半年政策基调直接影响市场流动性和信贷环境，对企业和投资者融资成本与资产配置有重要指导意义。",
+          "trend": "中国央行在稳增长与防风险间寻求平衡，政策工具更趋精准。",
+          "importance": 85
+        },
+        {
+          "title": "报道称美联储主席沃什考虑减少FOMC会议频率",
+          "link": "https://finance.sina.com.cn/world/2026-08-01/doc-iniktyyr0741208.shtml?wm=4007",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuMnE24ArNyr9shqEbXMO5T7EUorBtHhf6blbCSkwXXquUQtT8j_NITwc&usqp=CAI&s",
+          "snippet": "据周五报道，美联储主席凯文·沃什在考虑减少美联储定期政策会议的频率。 报道还表示，沃什在本周联邦公开市场委员会（FOMC）会议上提出了调整会议频率的提议。",
+          "date": "3 天前",
+          "source": "新浪财经",
+          "query": "美联储 全球金融 市场 利率 股票 黄金 最新",
+          "candidateId": "finance-15",
+          "eventId": "dedcc85c930ed48bbc8a",
+          "parentEventId": null,
+          "eventSummary": "美联储主席沃什考虑减少FOMC会议频率，并已提出提议。",
+          "isUpdate": false,
+          "summary": "据周五报道，美联储主席凯文·沃什在考虑减少美联储定期政策会议的频率，并在本周FOMC会议上提出了调整会议频率的提议。",
+          "whyItMatters": "减少会议频率可能改变市场对美联储政策调整的预期节奏，影响利率路径和资产价格波动。",
+          "trend": "美联储新领导层寻求改革政策沟通机制，市场透明度面临变化。",
+          "importance": 80
+        }
+      ]
+    },
+    {
+      "id": "football",
+      "name": "足球圈 · 重磅转会",
+      "icon": "⚽",
+      "trendSummary": "近 7 天候选消息未通过二次核验。",
+      "items": []
+    }
+  ],
+  "weeklyDigest": null
+}
