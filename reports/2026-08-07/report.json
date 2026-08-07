@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "reportDate": "2026-08-07",
+  "generatedAt": "2026-08-07T00:00:03.897Z",
+  "indicators": {
+    "btc": {
+      "price": 64322.32,
+      "change": -0.538,
+      "source": "Binance Public Data",
+      "updatedAt": "2026-08-07T00:00:04.217Z"
+    },
+    "gold": {
+      "usdPerOunce": 4253.700195,
+      "source": "Gold-API",
+      "updatedAt": "2026-08-06T23:59:47.000Z"
+    },
+    "csi300": {
+      "price": 4651.3098,
+      "change": -0.14694874144267844,
+      "source": "新浪财经",
+      "marketDate": "2026-08-06",
+      "marketTime": "16:19:40"
+    },
+    "usdcny": {
+      "rate": 6.762213,
+      "source": "ExchangeRate-API",
+      "updatedAt": "2026-08-06T00:02:31.000Z"
+    },
+    "housing": {}
+  },
+  "categories": [
+    {
+      "id": "ai",
+      "name": "AI 圈",
+      "icon": "🤖",
+      "trendSummary": "今日候选未通过事件去重与事实核验：stream has been aborted",
+      "items": []
+    },
+    {
+      "id": "tech",
+      "name": "科技圈",
+      "icon": "💻",
+      "trendSummary": "今日候选未通过事件去重与事实核验：stream has been aborted",
+      "items": []
+    },
+    {
+      "id": "crossborder",
+      "name": "跨境电商",
+      "icon": "🌐",
+      "trendSummary": "今日候选未通过事件去重与事实核验：stream has been aborted",
+      "items": []
+    },
+    {
+      "id": "realestate",
+      "name": "房地产",
+      "icon": "🏠",
+      "trendSummary": "今日候选未通过事件去重与事实核验：stream has been aborted",
+      "items": []
+    },
+    {
+      "id": "finance",
+      "name": "金融圈",
+      "icon": "📈",
+      "trendSummary": "今日候选未通过事件去重与事实核验：stream has been aborted",
+      "items": []
+    },
+    {
+      "id": "football",
+      "name": "足球圈 · 重磅转会",
+      "icon": "⚽",
+      "trendSummary": "今日候选未通过事件去重与事实核验：stream has been aborted",
+      "items": []
+    }
+  ],
+  "weeklyDigest": null
+}
