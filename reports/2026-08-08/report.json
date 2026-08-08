@@ -1,0 +1,377 @@
+{
+  "schemaVersion": 1,
+  "reportDate": "2026-08-08",
+  "generatedAt": "2026-08-08T00:00:08.522Z",
+  "indicators": {
+    "btc": {
+      "price": 64909.6,
+      "change": 0.904,
+      "source": "Binance Public Data",
+      "updatedAt": "2026-08-08T00:00:08.891Z"
+    },
+    "gold": {
+      "usdPerOunce": 4343.299805,
+      "source": "Gold-API",
+      "updatedAt": "2026-08-07T23:59:51.000Z"
+    },
+    "csi300": {
+      "price": 4694.4365,
+      "change": 0.9271947441557172,
+      "source": "新浪财经",
+      "marketDate": "2026-08-07",
+      "marketTime": "16:19:40"
+    },
+    "usdcny": {
+      "rate": 6.763426,
+      "source": "ExchangeRate-API",
+      "updatedAt": "2026-08-07T00:02:31.000Z"
+    },
+    "housing": {
+      "tianhe": {
+        "price": 49621,
+        "period": "8月",
+        "source": "m.anjuke.com",
+        "link": "https://m.anjuke.com/gz/trendency/201/"
+      }
+    }
+  },
+  "categories": [
+    {
+      "id": "ai",
+      "name": "AI 圈",
+      "icon": "🤖",
+      "trendSummary": "字节跳动坚持自研大模型，计划训练超5万亿参数模型；DeepSeek V4 Flash单日处理8万亿Token；智能体加速落地企业业务流程；微软要求开发者优先使…",
+      "items": [
+        {
+          "title": "字节跳动创始人张一鸣在Seed全员会表态不走模型蒸馏捷径，计划训练超5万亿参数大模型",
+          "link": "https://m.sohu.com/a/1060135634_350699",
+          "imageUrl": null,
+          "snippet": "1. 张一鸣：字节不走模型蒸馏“捷径”； · 2. 字节跳动全员会：梁汝波明确“豆包”与“抖音”同等战略权重； · 3. 曝字节跳动计划训练超5万亿参数大模型，为国内已知最大规模；.",
+          "date": "11小时前",
+          "source": "",
+          "query": "AI 大模型 新品 发布 Kimi DeepSeek 通义 豆包 最新",
+          "candidateId": "ai-7",
+          "eventId": "e44fb74bab14a8924f99",
+          "parentEventId": "5230381a651b9c51fb15",
+          "eventSummary": "张一鸣定调坚持自研，不使用模型蒸馏技术。",
+          "isUpdate": true,
+          "summary": "据The Information报道，字节跳动创始人张一鸣在Seed团队全员会上表示，字节跳动不会把模型蒸馏当作提升AI模型能力的捷径。另据晚点独家报道，字节跳动正讨论训练超5万亿参数模型，若成功将成为国内已知参数规模最大的模型，该计划尚处早期，由项亮主导、沈科合作。字节跳动CEO梁汝波在全员会明确豆包与抖音同等战略权重。",
+          "whyItMatters": "字节跳动坚持自研大模型并计划训练超大规模参数模型，可能提升国产大模型能力上限，影响行业技术路线选择。",
+          "trend": "头部厂商坚持自研，大模型军备竞赛升级。",
+          "importance": 82
+        },
+        {
+          "title": "DeepSeek V4 Flash单日处理8万亿Token，采用MoE架构激活13B参数",
+          "link": "https://post.smzdm.com/p/axk4wqm2/",
+          "imageUrl": null,
+          "snippet": "DeepSeek V4 Flash采用MoE（混合专家）架构，总参数规模284B，但每次推理仅激活13B参数。这意味着它用大模型的容量、小模型的速度在跑。支持最长100万Token上下文，支持非 ...",
+          "date": "4天前",
+          "source": "",
+          "query": "AI 大模型 新品 发布 Kimi DeepSeek 通义 豆包 最新",
+          "candidateId": "ai-5",
+          "eventId": "8493cbe7e7ea41d3d876",
+          "parentEventId": "21870df11d82bb53d8dd",
+          "eventSummary": "DeepSeek-V4-Flash正式版发布，性能追平旗舰，Agent能力增强。",
+          "isUpdate": true,
+          "summary": "据开源项目团队OpenCode发文，其平台上DeepSeek V4 Flash的调用量大幅飙升，仅8月1日一天，模型单日处理达8万亿Token，其中5万亿为免费试用额度消耗，3万亿为开发者调用。DeepSeek V4 Flash采用MoE架构，总参数规模284B，每次推理仅激活13B参数，支持最长100万Token上下文。",
+          "whyItMatters": "展示高效架构带来的成本与速度优势，可能加速AI服务降价，惠及开发者和企业用户。",
+          "trend": "高效MoE架构成为大模型降本增效的关键路径。",
+          "importance": 80
+        },
+        {
+          "title": "财联社调研：智能体加速落地企业业务流程，承担写代码、处理邮件等具体任务",
+          "link": "https://www.cls.cn/detail/2447356",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrhThgUaJ-bce-nBPumwW8yMw9k5mE8ywNCTA4bjNP5MIXUejckNqGtdc&usqp=CAI&s",
+          "snippet": "财联社8月6日讯（记者付静）从写代码、处理邮件，到生成报告、完成投研分析，越来越多企业开始把智能体嵌入日常工作流。 财联社记者近日实地调研并与业内人士交流...",
+          "date": "1 天前",
+          "source": "财联社",
+          "query": "AI Agent 产品 发布 功能 升级 最新",
+          "candidateId": "ai-10",
+          "eventId": "c4c8187a24e91c3634ce",
+          "parentEventId": null,
+          "eventSummary": "企业广泛将智能体嵌入工作流，执行具体任务。",
+          "isUpdate": false,
+          "summary": "财联社记者实地调研并与业内人士交流发现，越来越多企业将智能体嵌入日常工作流，用于写代码、处理邮件、生成报告、投研分析等，智能体开始承担具体执行任务。智能体的影响已不再局限于单点提效，对内开始重塑企业日常运转流程，对外推动产品能力升级。",
+          "whyItMatters": "智能体在企业端落地加速，提升工作效率，可能改变企业软件使用方式，为AI厂商带来商业化机会。",
+          "trend": "AI Agent从概念走向企业实际业务流程。",
+          "importance": 72
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "科技圈",
+      "icon": "💻",
+      "trendSummary": "存储芯片受AI需求提振，科技投资重心向企业AI与太空领域转移。",
+      "items": [
+        {
+          "title": "马斯克点名存储芯片供不应求，A股存储板块多股涨停",
+          "link": "http://news.10jqka.com.cn/20260807/c678763496.shtml",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVcvQ65McYuEHyobvEOs0ATn5Q6IAT5dDEMhHjqAkBetyBtFDwLfWfauM&usqp=CAI&s",
+          "snippet": "8月7日，存储芯片板块午后再度拉升，截至收盘，耐科装备20cm涨停，博敏电子、生益科技、有研新材、红板科技等涨停，德福科技、南亚新材、国科微等涨超10%，人气股兆易...",
+          "date": "13小时前",
+          "source": "同花顺财经",
+          "query": "半导体 消费电子 云计算 产业 最新 动态",
+          "candidateId": "tech-16",
+          "eventId": "2d18a8189748c39469a5",
+          "parentEventId": null,
+          "eventSummary": "马斯克点名存储芯片供不应求，A股存储板块多股涨停。",
+          "isUpdate": false,
+          "summary": "8月7日，存储芯片板块午后拉升，耐科装备20cm涨停，博敏电子、生益科技、有研新材等涨停，兆易创新涨超8%。马斯克点名存储芯片供不应求，引发市场关注。",
+          "whyItMatters": "存储芯片需求旺盛带动相关个股上涨，反映AI算力对存储的依赖。",
+          "trend": "AI算力需求正传导至存储芯片，存储行业景气度提升。",
+          "importance": 85
+        }
+      ]
+    },
+    {
+      "id": "crossborder",
+      "name": "跨境电商",
+      "icon": "🌐",
+      "trendSummary": "跨境电商平台规模扩大，头部企业资本化加速，新兴市场竞争升级。",
+      "items": [
+        {
+          "title": "亚马逊2025年GMV达8300亿美元，第三方卖家贡献69%",
+          "link": "https://news.futunn.com/th/post/68945138",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwyh5544GtuoZDGlOj9Zdp0caAZSPUCRM5rNe3H4OCZZgA6mremeMW5-4&usqp=CAI&s",
+          "snippet": "贡献近七成！卖家撑起亚马逊成交大盘亚马逊2025年GMV达8300亿美元，第三方卖家贡献近七成亚马逊2025年平台商品交易总额（GMV）达8300亿美元，同比增长约9%。",
+          "date": "1 天前",
+          "source": "富途牛牛",
+          "query": "Amazon TikTok Shop Temu SHEIN 卖家 新规 最新",
+          "candidateId": "crossborder-10",
+          "eventId": "ba03a82c7b8c2af698d8",
+          "parentEventId": null,
+          "eventSummary": "亚马逊2025年GMV达8300亿美元，TikTok Shop发布AI内容新规。",
+          "isUpdate": false,
+          "summary": "亚马逊2025年平台商品交易总额（GMV）达8300亿美元，同比增长约9%，其中第三方卖家贡献5750亿美元，占比69%。",
+          "whyItMatters": "亚马逊GMV数据反映平台规模与卖家依赖度，第三方卖家仍是增长主引擎。",
+          "trend": "平台规模持续扩大，卖家生态进入稳定增长阶段。",
+          "importance": 85
+        },
+        {
+          "title": "SHEIN通过港交所上市聆讯，估值300亿至400亿美元",
+          "link": "https://www.cifnews.com/article/187969",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWt96rgSCgAkwddWYykDVvvS8CJ83Odj6xCchuBTGCjRtSQteSegDgTkw&usqp=CAI&s",
+          "snippet": "Shein欲赴港上市，估值400亿美元，或成跨境电商新标杆。",
+          "date": "2 天前",
+          "source": "雨果跨境",
+          "query": "Amazon TikTok Shop Temu SHEIN 卖家 新规 最新",
+          "candidateId": "crossborder-11",
+          "eventId": "fbc813da5db610e0bda8",
+          "parentEventId": null,
+          "eventSummary": "SHEIN欲赴港上市，估值400亿美元。",
+          "isUpdate": false,
+          "summary": "SHEIN已通过港交所上市聆讯，预计本月上市，估值300亿至400亿美元，2026年第一季度净收入90.52亿美元，同比微增1.12%。",
+          "whyItMatters": "SHEIN上市将影响跨境电商格局，为卖家提供新平台机会。",
+          "trend": "头部平台资本化加速，行业竞争加剧。",
+          "importance": 80
+        },
+        {
+          "title": "Lazada开征技术费，东南亚电商收费结构调整",
+          "link": "https://www.baijing.cn/article/56262",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3jTDcy2u9h1LeoCHlcgWplDVaahieNN9R7COlgSRB4frRk_tohnvKPvQ&usqp=CAI&s",
+          "snippet": "东南亚电商平台的收费结构正在经历一轮系统性调整。",
+          "date": "1 天前",
+          "source": "白鲸出海",
+          "query": "跨境电商 平台 政策 流量 物流 选品 最新 趋势",
+          "candidateId": "crossborder-6",
+          "eventId": "c8ea5342be06099c4d08",
+          "parentEventId": null,
+          "eventSummary": "Lazada开征技术费。",
+          "isUpdate": false,
+          "summary": "东南亚电商平台Lazada开始征收技术费，卖家需承担类目佣金、支付手续费及可能的物流费用。",
+          "whyItMatters": "卖家成本增加，需调整定价与运营策略。",
+          "trend": "东南亚平台收费模式转向多元化。",
+          "importance": 75
+        },
+        {
+          "title": "拉美电商平台竞争加剧，卖家告别“快钱”时代",
+          "link": "https://m.36kr.com/p/3927840675428742",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpgix5mFEd1qw9tWo4eIBhnNA6Lpxz3K6ETxabd2yjdEvm0wzpPZBhrr0&usqp=CAI&s",
+          "snippet": "拉美市场的“淘金热”一直未曾熄灭。来到2026年，有些东西又确实在发生变化。跨境卖家们不得不重新审视这片新大陆在全球化商业版图中的地位。",
+          "date": "2 天前",
+          "source": "36氪",
+          "query": "Amazon TikTok Shop Temu SHEIN 卖家 新规 最新",
+          "candidateId": "crossborder-9",
+          "eventId": "76c2b02889095aba9de1",
+          "parentEventId": null,
+          "eventSummary": "拉美电商平台竞争加剧，卖家转向精细化运营。",
+          "isUpdate": false,
+          "summary": "拉美电商市场竞争加剧，平台格局变化，卖家面临更高门槛，精细化运营成为趋势。",
+          "whyItMatters": "拉美市场机会与挑战并存，卖家需提升运营能力。",
+          "trend": "新兴市场竞争升级，粗放增长结束。",
+          "importance": 70
+        }
+      ]
+    },
+    {
+      "id": "realestate",
+      "name": "房地产",
+      "icon": "🏠",
+      "trendSummary": "北京出台楼市新政，一线城市调控精细化；土地市场热度回升，房企聚焦核心城市。",
+      "items": [
+        {
+          "title": "北京8月7日发布楼市新政，优化限购、完善赠与、加大公积金支持",
+          "link": "https://finance.sina.com.cn/stock/estate/sd/2026-08-08/doc-inimpnhf4589239.shtml",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEyK6vDww9jTY04yZXnWoQLsDShs3mELb44r3ipGANNerzUp135ynrEJI&usqp=CAI&s",
+          "snippet": "8月7日，北京市住建委等多部门联合印发《通知》，落地包括优化限购、完善赠与政策、加大公积金支持力度等7项楼市新政。新政走存量优化路线，拉开一线城市调控差异化...",
+          "date": "7小时前",
+          "source": "新浪财经",
+          "query": "中国 房地产 政策 成交 库存 房企 最新",
+          "candidateId": "realestate-7",
+          "eventId": "7b89448c74c6078f228a",
+          "parentEventId": null,
+          "eventSummary": "北京8月7日发布7项楼市新政，优化限购、完善赠与、加大公积金支持。",
+          "isUpdate": false,
+          "summary": "8月7日，北京市住建委、北京市规自委、北京住房公积金管理中心联合印发《关于进一步优化调整本市房地产政策的通知》，提出包括优化住房限购政策、完善房屋赠与政策、加大住房公积金支持力度3个方面7项政策措施，8月8日正式执行。",
+          "whyItMatters": "北京作为一线城市，其政策调整可能影响其他一线城市跟进，购房资格和贷款条件的变化需购房者关注。",
+          "trend": "一线城市房地产政策从全面松绑转向精细化、差异化调整。",
+          "importance": 90
+        },
+        {
+          "title": "近期一线城市多宗高价地密集出让，房企争抢优质地块",
+          "link": "https://app.dahecube.com/nweb/pc/article.html?artid=282850?recid=1",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQb5vtDoAx_OCwbIm7GgYr_KU7UFWUDQYfrOCzX9bBDmBopiR2QLvpepI&usqp=CAI&s",
+          "snippet": "盛夏尾声，开发商也在加紧“抢好地”。 近期，一线城市多宗高价地密集出让，吸引头部房企纷纷争抢，有企业一周内在北京连拿两地，斥资超百亿；也有头部房企“强强联手”，...",
+          "date": "15小时前",
+          "source": "大河财立方",
+          "query": "房地产 土地市场 房贷 利率 城中村 改造 最新",
+          "candidateId": "realestate-16",
+          "eventId": "d8c234e8948523cdbba7",
+          "parentEventId": null,
+          "eventSummary": "一线城市高价地密集出让，房企争抢。",
+          "isUpdate": false,
+          "summary": "近期，一线城市多宗高价地密集出让，吸引头部房企争抢，有企业一周内在北京连拿两地斥资超百亿，也有头部房企以联合体方式在上海夺地，成交价格较高。",
+          "whyItMatters": "土地市场热度回升可能影响未来新房供应和房价预期，房企投资策略更聚焦核心城市。",
+          "trend": "房企聚焦一线城市核心地块，土地市场分化加剧。",
+          "importance": 75
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "name": "金融圈",
+      "icon": "📈",
+      "trendSummary": "美日联合干预汇市并启用FIMA工具，兴业银行上线货币桥澳门支付业务，地缘风险缓和推动美股新高油价重挫。",
+      "items": [
+        {
+          "title": "贝森特证实美日联合干预启用FIMA工具并呼吁扩容",
+          "link": "https://finance.sina.com.cn/roll/2026-08-03/doc-inikzeat6147011.shtml",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU9iWIBO5JvI46yL56pjna3ubbRspwd2KQrNjWNA1SPmfz3hJGnlJ_jwM&usqp=CAI&s",
+          "snippet": "贝森特证实，上一轮美日协同干预已经启用FIMA工具；该机制允许海外央行抵押美债获取美元，避免在公开市场直接卖出债券扰动行情。 美国财政部长贝森特表示，如果日元...",
+          "date": "4 天前",
+          "source": "新浪财经",
+          "query": "中国 金融 央行 股市 债市 政策 最新 重磅",
+          "candidateId": "finance-3",
+          "eventId": "f0f87d4cda02a8f43565",
+          "parentEventId": "7cfcfa105fd92dac0cbc",
+          "eventSummary": "美日协同干预日元，美联储可能参与稳定日元行动。",
+          "isUpdate": true,
+          "summary": "美国财政部长贝森特证实，上一轮美日协同干预已启用FIMA工具，该机制允许海外央行抵押美债获取美元，避免直接抛售债券扰动市场。贝森特表示，若日元继续贬值，可能推动美联储流动性工具扩容。",
+          "whyItMatters": "美日联合干预汇市及FIMA工具的使用，影响全球债券市场和日元汇率，对跨境投资者和外贸企业有直接影响。",
+          "trend": "全球央行协同干预汇市，流动性工具创新成为稳定市场的重要手段。",
+          "importance": 90
+        },
+        {
+          "title": "地缘风险缓和推动美股创新高油价重挫",
+          "link": "https://www.bihainews.com/bhn-info/stock/20260814590.html",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5R7GEq2PTyc-2kuOKFeYIaqV-TWLcs8cm6BCIjpLWzO84YDxVFKRh7-0&usqp=CAI&s",
+          "snippet": "地缘风险溢价快速消退，通胀预期随之降温，10年期美债收益率下行6个基点。",
+          "date": "2 天前",
+          "source": "币海NEWS",
+          "query": "中国 金融 央行 股市 债市 政策 最新 重磅",
+          "candidateId": "finance-4",
+          "eventId": "e0e9538617c54533178d",
+          "parentEventId": null,
+          "eventSummary": "地缘风险骤降，美股新高，油价重挫。",
+          "isUpdate": false,
+          "summary": "地缘风险溢价快速消退，通胀预期随之降温，10年期美债收益率下行6个基点，美股道琼斯与标普500指数同步刷新历史收盘纪录，国际油价重挫超5%。",
+          "whyItMatters": "地缘风险缓和推动风险资产上涨，但持续性存疑，投资者需警惕市场波动。",
+          "trend": "地缘政治事件对金融市场的短期冲击可能快速消退，市场回归基本面。",
+          "importance": 75
+        },
+        {
+          "title": "兴业银行上线货币桥澳门支付业务",
+          "link": "https://cj.sina.cn/articles/view/2625132992/9c7859c000101h28e",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPQkQuzSSHukyixX-Ov-KErRjcJ9Qsi__xj1yiroE&usqp=CAI&s",
+          "snippet": "近日，随着澳门地区多边央行数字货币桥（m-Bridge，下称“货币桥”）服务正式开通，兴业银行在广州快速落地货币桥澳门支付业务，进一步拓展跨境人民币结算服务范围，为...",
+          "date": "4 天前",
+          "source": "新浪财经",
+          "query": "中国 金融 央行 股市 债市 政策 最新 重磅",
+          "candidateId": "finance-6",
+          "eventId": "4bbf95339622b6e4b633",
+          "parentEventId": null,
+          "eventSummary": "兴业银行上线货币桥澳门支付业务，拓展跨境人民币结算。",
+          "isUpdate": false,
+          "summary": "随着澳门地区多边央行数字货币桥（m-Bridge）服务正式开通，兴业银行在广州快速落地货币桥澳门支付业务，拓展跨境人民币结算服务范围。作为境内首批参与货币桥的九家银行之一，兴业银行已支持内地与香港、澳门之间通过货币桥开展跨境结算。",
+          "whyItMatters": "货币桥业务落地有助于提升跨境支付效率，推动人民币国际化，对跨境贸易企业带来便利。",
+          "trend": "多边央行数字货币桥应用场景扩展，跨境支付基础设施加速建设。",
+          "importance": 70
+        }
+      ]
+    },
+    {
+      "id": "football",
+      "name": "足球圈 · 重磅转会",
+      "icon": "⚽",
+      "trendSummary": "豪门俱乐部继续高价引进年轻球员并签订长约，同时顶级球员转会谈判仍在进行。",
+      "items": [
+        {
+          "title": "皇马官方宣布签下迪奥曼德，转会总价1.4亿欧元签约至2033年",
+          "link": "https://www.sohu.com/a/1059695173_461392",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR95A2Vnkce9tbvmHxtYKUUAx2m04K07xR9DElsJaxHo9YIUtywlejVZ94&usqp=CAI&s",
+          "snippet": "北京时间8月6日，西甲豪门皇家马德里俱乐部官方宣布，19岁科特迪瓦国脚边锋扬·迪奥曼德正式加盟球队，签约至2033年6月。 皇马官方公告如下： 皇家马德里足球俱乐部和RB...",
+          "date": "1 天前",
+          "source": "搜狐网",
+          "query": "足球 重磅转会 官宣 豪门 球星 最新",
+          "candidateId": "football-1",
+          "eventId": "6c0b871919d2c9c166bb",
+          "parentEventId": "520f02cccd7c7302b4fa",
+          "eventSummary": "皇马官方宣布签下迪奥曼德，转会总价1.4亿欧元，签约至2033年。",
+          "isUpdate": true,
+          "summary": "北京时间8月6日，皇家马德里官方宣布从RB莱比锡签下19岁科特迪瓦边锋扬·迪奥曼德，签约至2033年6月30日。据媒体报道，转会费为1.4亿欧元，刷新皇马队史引援纪录。",
+          "whyItMatters": "皇马以创队史纪录的转会费签下年轻新星，将增强球队边路攻击力，并可能影响未来数年足坛转会市场格局。",
+          "trend": "豪门俱乐部愿意为高潜年轻球员支付天价转会费，并签订超长约以锁定未来资产。",
+          "importance": 95
+        },
+        {
+          "title": "巴黎圣日耳曼官方宣布签下阿克利乌什，转会费5000万欧元签约五年",
+          "link": "https://news.7m.com.cn/news/20260807/734214.shtml",
+          "imageUrl": null,
+          "snippet": "这笔转会固定费用为 5000 万欧元，球员与巴黎签下一份有效期至 2031 年的五年长约，新赛季他将接过球队 11 号球衣征战各项赛事。 俱乐部官方公告中表达了签下阿克利乌什的 ...",
+          "date": "22小时前",
+          "source": "",
+          "query": "英超 西甲 意甲 德甲 法甲 重磅转会 Here we go 最新",
+          "candidateId": "football-11",
+          "eventId": "293befc47ee0d08d910d",
+          "parentEventId": "ba01b00301f01dfe630c",
+          "eventSummary": "巴黎圣日耳曼接近签下摩纳哥前锋阿克利乌舍。",
+          "isUpdate": true,
+          "summary": "巴黎圣日耳曼官方宣布从摩纳哥签下24岁法国前锋阿克利乌什，固定转会费5000万欧元，签约至2031年，新赛季将身披11号球衣。",
+          "whyItMatters": "巴黎补强前场轮换深度，阿克利乌什的加盟可能提升球队进攻端的选择和竞争力。",
+          "trend": "豪门在夏窗后期继续完成关键引援，以增强阵容厚度应对多线作战。",
+          "importance": 80
+        },
+        {
+          "title": "阿森纳对吉马良斯的首次报价遭纽卡斯尔拒绝，枪手考虑下一步行动",
+          "link": "https://www.skysports.com/football/news/11095/13557961/bruno-guimaraes-arsenal-bid-rejected-by-newcastle-with-magpies-determined-to-keep-captain-and-brazil-international-midfielder",
+          "imageUrl": null,
+          "snippet": "Arsenal's opening bid for Bruno Guimaraes has been rejected by Newcastle, with the Gunners now considering their next move. The Premier League champions are...",
+          "date": "3 days ago",
+          "source": "Sky Sports",
+          "query": "site:skysports.com/football transfer confirmed signs joins latest",
+          "candidateId": "football-29",
+          "eventId": "488eb84c7a3580be0d00",
+          "parentEventId": "7d2dccf881cf128b6d72",
+          "eventSummary": "阿森纳接近签下纽卡斯尔中场吉马良斯",
+          "isUpdate": true,
+          "summary": "据天空体育报道，阿森纳对纽卡斯尔中场吉马良斯的首次报价已被拒绝，纽卡斯尔决心留住队长，阿森纳正在考虑后续行动。",
+          "whyItMatters": "吉马良斯是英超顶级中场，阿森纳若成功签下将极大增强中场实力，目前谈判陷入僵局，转会走向存变数。",
+          "trend": "豪门对顶级球员的争夺愈发激烈，卖方俱乐部在合同保护下拥有更强议价权。",
+          "importance": 78
+        }
+      ]
+    }
+  ],
+  "weeklyDigest": null
+}
